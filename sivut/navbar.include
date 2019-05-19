@@ -1,0 +1,37 @@
+<nav>
+<div class="palkkiphone">
+<ul>
+	<li><a href="https://www.jyu.fi/">Jyväskylän yliopisto</a></li>
+	<li><a href="https://www.jyu.fi/it/">Informaatioteknologian tiedekunta</a></li>
+	<li><a href="https://www.jyu.fi/it/fi/opiskelu/kandidaatti-ja-maisteriohjelmat/tietotekniikka/">Tietotekniikan oppiaine</a></li>
+	<li><a href="http://appro.mit.jyu.fi/itkp1011/">ITKP1011</a></li>
+</ul>
+</div>
+<ul>
+<li><a href="interdum/">interdum</a>
+<ul>
+<li><a href="interdum/fames/">fames</a></li>
+<li><a href="interdum/convallis/">convallis</a></li>
+</ul>
+</li>
+<li><a href="eu/">eu</a>
+<ul>
+<li><a href="eu/posuere/">posuere</a></li>
+</ul>
+</li>
+<li><a href="odio/">odio</a>
+<ul>
+<li><a href="odio/tincidunt/">tincidunt</a></li>
+<li><a href="odio/nullam/">nullam</a></li>
+</ul>
+</li>	
+<li><a href="ante/">ante</a>
+<ul>
+<li><a href="ante/malesuada/">malesuada</a></li>
+<li><a href="ante/ac/">ac</a></li>
+<li><a href="ante/euismod/">euismod</a></li>
+</ul>
+</li> 
+<li><a href="blandit/">blandit</a><ul></ul></li>
+</ul>
+</nav>							 

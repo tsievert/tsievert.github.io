@@ -1,0 +1,11 @@
+AddCharset UTF-8 .html
+AddCharset UTF-8 .css
+AddCharset UTF-8 .txt
+
+AuthUserFile /sivut
+AuthGroupFile /dev/null
+AuthName ByPassword
+AuthType Basic
+<Limit GET>
+require valid-user
+</Limit>
