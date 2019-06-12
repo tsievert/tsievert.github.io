@@ -1,1 +1,47 @@
-<h1>Page not found</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<div w3-include-html="title.html"></div>
+<base href="https://temek1.github.io/" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="StyleSheet" href="style.css" type="text/css" media="all">
+<link rel="shortcut icon" href="favicon.ico">
+<script type="text/javascript" src="dynamic_content.js"></script>
+</head>
+<body>
+<div class="wrapper row1">
+  <div id ="navbar">
+	<div id ="nav1">
+           <div w3-include-html="navbar.html"></div>
+	</div>
+  </div>
+</div>
+<div class="wrapper row2">
+  <div id="index_container" class="clear">
+    <div id="col_1">
+	 <div w3-include-html="profile.html"></div>
+    </div>
+	<div id ="col_mobile_talks">
+           <div w3-include-html="talks.html"></div>
+    </div>
+    <div id="col_2">
+      <h1>Page not found.</h1>
+	  </div>
+	<div id ="col_3">
+	 <div w3-include-html="talks.html"></div>
+	</div>
+  </div>
+</div>
+<div class="wrapper row3">
+  <footer id="footer" class="clear">
+    <p class="fl_right"><div id ="footer1">&copy;Thorbjörn Sievert</div></p>
+	<div id ="footer2">
+	</div>
+  </footer>
+</div>
+<script>
+w3IncludeHTML();
+</script>
+</body>
+</html>
