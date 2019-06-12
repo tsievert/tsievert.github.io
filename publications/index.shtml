@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--#include virtual="../title.include"-->
+<base href="http://users.jyu.fi/~tekapyla/turre/" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="StyleSheet" href="style.css" type="text/css" media="all">
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+<div class="wrapper row1">
+  <div id ="navbar">
+	<div id ="nav1">
+     <!--#include virtual="../navbar.include"-->
+	</div>
+  </div>
+</div>
+<div class="wrapper row2">
+   <div id="container" class="clear">
+    <div id="col1">
+	 <!--#include virtual="../profile.include"-->
+    </div>
+    <div id="col2">
+      <table>
+	  <tr>
+      <th>Publications</th>
+      </tr>
+      <tr>
+	  <td>#n</td>
+      <td><b>Ylönen, H., Haapakoski, M., Sievert, T., Sundell, J. (2019)</b> Voles and weasels in the boreal Fennoscandian small mammal community: What happens if the least weasel disappears due to climate change? Integrative Zoology.</td>
+      </tr>
+	  <tr>
+	  <td>#n-1</td>
+      <td><b>publication2</b> example</td>
+      </tr>
+	  <tr>
+	  <td>#n-2</td>
+      <td>publication3</td>
+      </tr>
+	   <tr>
+	  <td>#n-2</td>
+      <td>publication4</td>
+      </tr>
+	   <tr>
+	  <td>#n-2</td>
+      <td>publication5</td>
+      </tr>
+	   <tr>
+	  <td>#n-2</td>
+      <td>publication6</td>
+      </tr>
+     </table>	     
+	</div>
+  </div>
+</div>
+<div class="wrapper row3">
+   <footer id="footer" class="clear">
+    <p class="fl_right"><div id ="footer1">&copy;Thorbjörn Sievert</div></p>
+   </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--#include virtual="../title.include"-->
+<base href="http://users.jyu.fi/~tekapyla/turre/" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="StyleSheet" href="style.css" type="text/css" media="all">
+<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+<div class="wrapper row1">
+  <div id ="navbar">
+	<div id ="nav1">
+     <!--#include virtual="../navbar.include"-->
+	</div>
+  </div>
+</div>
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <div id="col1">
+	 <!--#include virtual="../profile.include"-->
+    </div>
+    <div id="col2">
+      <table>
+	  <tr>
+      <th>Teaching</th>
+      </tr>
+      <tr>
+      <td>Winter School Konnevesi 2019</td>
+	  <td>Voles, snow...</td>
+      </tr>
+	  <tr>
+      <td>Winter School Konnevesi 2018</td>
+	  <td>Details, details...</td>
+      </tr>
+     </table>	     
+    </div>
+  </div>
+</div>
+<div class="wrapper row3">
+   <footer id="footer" class="clear">
+    <p class="fl_right"><div id ="footer1">&copy;Thorbjörn Sievert</div></p>
+   </footer>
+</div>
+</body>
+</html>

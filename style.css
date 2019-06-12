@@ -1,0 +1,174 @@
+﻿/*--------------------------------------------Mobile Scaling---------------------------------*/
+@media (max-width: 767px) {
+body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden;}
+
+#navbar{}
+
+#navbar #nav1	{
+display:block; 
+float: left; 
+width:100%; 
+color:#F2F2F2; 
+text-align: center; 
+tex-decoration: none; 
+font-size: 100%;
+background-color:#33CCFF; 
+margin-top: -6%; }
+
+#container{}
+
+#container #col1{display:block; float:left; width:100%; color:#6C6E72;}
+#container #col1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto;}
+#container #col2{display:block; float:left; width:100%; color:#979797; padding-left: 2%; background-color:#FFFFFF;}
+
+#index_container{}
+
+#index_container #col_1{display:block; float:left; width:100%; color:#6C6E72;}
+#index_container #col_1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto;}
+#index_container #col_2{display:block; float:left; width: 98%; color:#979797; padding-left: 2%; background-color:#FFFFFF; margin-top: 2%;}
+#index_container #col_3{display: none;}
+#index_container #col_mobile_talks{display:block; float:left; width:100%; color:#979797; background-color:#FFFFB3; border: 1px solid #D1D1E0; padding: 0; margin-top: 2%; margin-bottom: -2%; border-style: dashed;}
+
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: lime;
+}
+
+a:active {
+  color: blue;
+}
+
+table {
+  border-collapse: collapse;
+  width: 96%;
+  font-size: 13px;
+  margin-bottom: 5%;
+}
+tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
+tr:nth-child(odd) {height: 70px;}
+tr:hover {background-color: #CCFFE6;}
+
+#footer{}
+#footer #footer1{text-align: center; height: 20px;}
+}
+/*------------------------------------------Scaling for desktop------------------------------*/
+@media (min-width: 768px) {
+/*----------------------------------------------Main-----------------------------------------*/
+body{margin:0; padding:0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden;}
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; width:100%; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float: right;}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, hgroup, nav, section{display:block; margin:0; padding:0;}
+
+/*----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; text-align:left;}
+
+.row1{color:#C0BAB6; background-color:#333333;}
+.row2{color:#979797; background-color:#FFFFFF;}
+.row3, .row3 a{color:#FFFFFF; background-color:#1E1E1E;}
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #navbar, #index_container, #container, #footer{display:block; width:100%;}
+
+h1, h2, h3, h4, h5, h6{margin-left: 0; margin-right: 0; margin-bottom: 0; margin-top: 2%; padding:0; font-size:24px; font-weight:normal; font-style:normal; line-height:normal;}
+
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: lime;
+}
+a:active {
+  color: blue;
+}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{}
+
+/*--Content--*/
+#header #header1{display:block; float: left; width:100%; color:#FFFFFF; background-color:#33CCFF;}
+	
+/*----------------------------------------------Navbar-------------------------------------*/
+
+#navbar{}
+
+/*--Content--*/
+#navbar #nav1	{
+display:block; 
+float: left; 
+width:100%; 
+color:#F2F2F2; 
+text-align: center; 
+padding: 1% 2%; 
+tex-decoration: none; 
+font-size: 130%; 
+word-spacing: 5px;
+background-color:#33CCFF;
+}
+
+/*----------------------------------------------Content Container-------------------------------------*/
+
+#container{}
+
+/*--Content--*/
+
+#container #col1{display:block; float:left; width:20%; color:#6C6E72;}
+#container #col1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto;}
+#container #col2{display:block; float:left; width:75%; color:#979797; background-color:#FFFFFF;}
+
+
+#index_container{}
+
+/*--Content--*/
+
+#index_container #col_1{display:block; float:left; width:20%; color:#6C6E72;}
+#index_container #col_1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto;}
+#index_container #col_2{display:block; float:left; width:60%; color:#979797; background-color:#FFFFFF; margin-top: 2%;}
+#index_container #col_3{display:block; float:left; width:15%; color:#979797; background-color:#FFFFB3; border: 1px solid #D1D1E0; padding: 2%; margin-top: 2%; margin-bottom: 2%; border-style: dashed;}
+#index_container #col_mobile_talks{display: none;}
+
+
+/*----------------------------------------------Table-------------------------------------*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 17px;
+  margin-bottom: 5%;
+}
+tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
+tr:nth-child(odd) {height: 70px;}
+tr:hover {background-color: #CCFFE6;}
+  
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer{}
+
+#footer #footer1{text-align: center; height: 20px;}
+}
+}
