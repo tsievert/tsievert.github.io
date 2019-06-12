@@ -1,1 +1,6 @@
+Options All -Indexes
+
 DirectoryIndex index.shtml
+
+RewriteEngine on
+RewriteBase /
