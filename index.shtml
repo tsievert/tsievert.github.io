@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<script type="text/javascript" src="dynamic_content.js"></script>
 <head>
 <!--#include virtual="title.html" -->
 <base href="https://temek1.github.io/" />
