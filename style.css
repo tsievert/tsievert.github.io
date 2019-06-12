@@ -155,17 +155,19 @@ background-color:#33CCFF;
 
 
 /*----------------------------------------------Table-------------------------------------*/
-
+	
 table {
+  table-layout: fixed;
   border-collapse: collapse;
-  width: 100%;
+  width: 95%;
   font-size: 17px;
   margin-bottom: 5%;
 }
 tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
-tr:nth-child(odd) {height: 70px;}
+tr:nth-child(odd) {height: 100px;;}
 tr:hover {background-color: #CCFFE6;}
-  
+td:{overflow: hidden;}
+
 /*----------------------------------------------Footer-------------------------------------*/
 
 #footer{}
