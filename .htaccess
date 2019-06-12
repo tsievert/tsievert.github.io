@@ -5,7 +5,7 @@ RewriteCond %{HTTP_HOST} ^temek1.github.io[nc]
 RewriteRule ^(.*)$ http://www.temek1.github.io/$1 [r=301,nc]
 
 //Change default directory page
-DirectoryIndex index.shtml
+DirectoryIndex index.shtml index.shtm
 
 //404
 ErrorDocument 404 /404.html
