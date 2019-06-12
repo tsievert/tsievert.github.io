@@ -1,4 +1,3 @@
-<script>
 function w3IncludeHTML() {
   var z, i, a, file, xhttp;
   z = document.getElementsByTagName("*");
@@ -22,4 +21,3 @@ function w3IncludeHTML() {
     }
   }
 }
-</script>
