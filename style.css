@@ -83,9 +83,9 @@ address, article, aside, figcaption, figure, footer, header, hgroup, nav, sectio
 
 div.wrapper{display:block; width:100%; text-align:left;}
 
-.row1{color:#C0BAB6; background-color:#333333;}
+.row1{color:#C0BAB6; background-color:#1E1E1E;}
 .row2{color:#979797; background-color:#FFFFFF;}
-.row3, .row3 a{color:#FFFFFF; background-color:#FFFFFF;}
+.row3, .row3 a{color:#FFFFFF; background-color:#33CCFF;}
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
