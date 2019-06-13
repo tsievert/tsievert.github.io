@@ -29,7 +29,7 @@ margin-top: 2%;}
 #index_container #col_3{display: none;}
 #index_container #col_mobile_talks{display:block; float:left; width:100%; color:#979797; background-color:#FFFFB3; border: 1px solid #D1D1E0; padding: 0; margin-top: 2%; margin-bottom: -2%; border-style: dashed;}
 
-
+a{outline:none; text-decoration:none;}
 a:link {
   color: red;
 }
@@ -70,6 +70,19 @@ html[xmlns] .clear{display:block;}
 * html .clear{height:1%;}
 
 a{outline:none; text-decoration:none;}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: lime;
+}
+a:active {
+  color: blue;
+}
+
 
 .fl_left{float:left;}
 .fl_right{float: right;}
@@ -92,19 +105,6 @@ div.wrapper{display:block; width:100%; text-align:left;}
 
 h1, h2, h3, h4, h5, h6{margin-left: 0; margin-right: 0; margin-bottom: 0; margin-top: 2%; padding:0; font-size:24px; font-weight:normal; font-style:normal; line-height:normal;}
 
-
-a:link {
-  color: red;
-}
-a:visited {
-  color: green;
-}
-a:hover {
-  color: lime;
-}
-a:active {
-  color: blue;
-}
 
 /*----------------------------------------------Header-------------------------------------*/
 
