@@ -156,14 +156,15 @@ background-color:#33CCFF;
 
 /*----------------------------------------------Table-------------------------------------*/
 	
-table 1 {
+table t1 {
   table-layout: fixed;
   border-collapse: collapse;
   width: 100%;
   font-size: 17px;
   margin-bottom: 5%;
 }
-table 2 {
+
+table t2 {
   border-collapse: collapse;
   width: 100%;
   font-size: 17px;
