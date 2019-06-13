@@ -10,7 +10,7 @@ float: left;
 width:100%; 
 color:#F2F2F2; 
 text-align: center; 
-tex-decoration: none; 
+text-decoration: none; 
 font-size: 100%;
 background-color:#33CCFF;
 margin-top: 2%;}
@@ -165,7 +165,6 @@ table {
 tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
 tr:nth-child(odd) {height: 100px;;}
 tr:hover {background-color: #CCFFE6;}
-td:{overflow: hidden;}
 
 table#t01 {
   table-layout: fixed;
