@@ -13,7 +13,8 @@ text-align: center;
 tex-decoration: none; 
 font-size: 100%;
 background-color:#33CCFF;
-margin-top: 5%;}
+margin-top: 5%;
+padding-top: 5%; }
 
 #container{}
 
@@ -175,7 +176,5 @@ table#t01 {
 
 #footer{}
 
-#footer #footer1{text-align: center; height: 20px;}
-  padding-top: 5%;
-}
+#footer #footer1{text-align: center; height: 20px; padding-top: 5%;}
 }
