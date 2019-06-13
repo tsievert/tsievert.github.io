@@ -156,15 +156,7 @@ background-color:#33CCFF;
 
 /*----------------------------------------------Table-------------------------------------*/
 	
-table t1 {
-  table-layout: fixed;
-  border-collapse: collapse;
-  width: 100%;
-  font-size: 17px;
-  margin-bottom: 5%;
-}
-
-table t2 {
+table {
   border-collapse: collapse;
   width: 100%;
   font-size: 17px;
@@ -175,6 +167,10 @@ tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
 tr:nth-child(odd) {height: 100px;;}
 tr:hover {background-color: #CCFFE6;}
 td:{overflow: hidden;}
+
+table#t01 {
+  table-layout: fixed;
+}
 
 /*----------------------------------------------Footer-------------------------------------*/
 
