@@ -1,6 +1,6 @@
 ﻿/*--------------------------------------------Mobile Scaling---------------------------------*/
 @media (max-width: 767px) {
-body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color:#000000; overflow-x:hidden;}
+body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden;}
 
 #container{}
 
