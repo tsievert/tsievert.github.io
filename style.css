@@ -26,7 +26,7 @@ tr:nth-child(odd) {height: 70px;}
 tr:hover {background-color: #CCFFE6;}
 
 #footer{}
-#footer #footer1{text-align: center; height: 1%; color:#666699;}
+#footer #footer1{text-align: center; color:#666699; padding-top: 0.5%}
 }
 
 /*------------------------------------------Scaling for desktop------------------------------*/
@@ -111,7 +111,7 @@ table#t01 {table-layout: fixed;}
 
 #footer{}
 
-#footer #footer1{text-align: center; height: 1%; padding-top: 1%;}
+#footer #footer1{text-align: center; padding-top: 0.5%;}
 
 }
 /*------End of Desktop settings------*/
