@@ -26,8 +26,9 @@ tr:nth-child(odd) {height: 70px;}
 tr:hover {background-color: #CCFFE6;}
 
 #footer{}
-#footer #footer1{text-align: center; height: 20px;}
+#footer #footer1{text-align: center; height: 20px; color:#666699;}
 }
+
 /*------------------------------------------Scaling for desktop------------------------------*/
 @media (min-width: 768px) {
 /*----------------------------------------------Main-----------------------------------------*/
@@ -98,27 +99,22 @@ h1, h2, h3, h4, h5, h6{margin-left: 0; margin-right: 0; margin-bottom: 0; margin
 
 /*----------------------------------------------Table-------------------------------------*/
 	
-table {
-  border-collapse: collapse;
-  width: 100%;
-  font-size: 17px;
-  margin-bottom: 5%;
-}
+table {border-collapse: collapse; width: 100%; font-size: 17px; margin-bottom: 5%;}
 
 tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
 tr:nth-child(odd) {height: 100px;;}
 tr:hover {background-color: #CCFFE6;}
 
-table#t01 {
-  table-layout: fixed;
-}
+table#t01 {table-layout: fixed;}
 
 /*----------------------------------------------Footer-------------------------------------*/
 
 #footer{}
 
 #footer #footer1{text-align: center; height: 20px; padding-top: 1%;}
+
 }
+/*------End of Desktop settings------*/
 
 /*-----------------------Some shared settings between mobile and desktop-------------------*/
 a{outline:none; text-decoration:none;}
