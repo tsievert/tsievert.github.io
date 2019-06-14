@@ -4,16 +4,7 @@ body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, s
 
 #navbar{}
 
-#navbar #nav1	{
-display:block; 
-float: left; 
-width:100%; 
-color:#F2F2F2; 
-text-align: center; 
-text-decoration: none; 
-font-size: 100%;
-background-color:#33CCFF;
-margin-top: 2%;}
+#navbar #nav1	{display:block; float: left; width:100%; color:#F2F2F2; text-align: center; text-decoration: none; font-size: 100%; background-color:#33CCFF; margin-top: 2%;}
 
 #container{}
 
@@ -29,12 +20,7 @@ margin-top: 2%;}
 #index_container #col_3{display: none;}
 #index_container #col_mobile_talks{display:block; float:left; width:100%; color:#979797; background-color:#FFFFB3; border: 1px solid #D1D1E0; padding: 0; margin-top: 2%; margin-bottom: -2%; border-style: dashed;}
 
-table {
-  border-collapse: collapse;
-  width: 96%;
-  font-size: 13px;
-  margin-bottom: 5%;
-}
+table {border-collapse: collapse; width: 96%; font-size: 13px; margin-bottom: 5%;}
 tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
 tr:nth-child(odd) {height: 70px;}
 tr:hover {background-color: #CCFFE6;}
@@ -86,18 +72,7 @@ h1, h2, h3, h4, h5, h6{margin-left: 0; margin-right: 0; margin-bottom: 0; margin
 #navbar{}
 
 /*--Content--*/
-#navbar #nav1	{
-display:block; 
-float: left; 
-width:100%; 
-color:#F2F2F2; 
-text-align: center; 
-padding: 1% 2%; 
-text-decoration: none; 
-font-size: 130%; 
-word-spacing: 5px;
-background-color:#33CCFF;
-}
+#navbar #nav1	{display:block; float: left; width:100%; color:#F2F2F2; text-align: center; padding: 1% 2%; text-decoration: none; font-size: 130%; word-spacing: 10px; background-color:#33CCFF;}
 
 /*----------------------------------------------Content Container-------------------------------------*/
 
