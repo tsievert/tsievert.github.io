@@ -1,6 +1,5 @@
 ﻿/*--------------------------------------------Mobile Scaling----------------------------*/
-@media screen and (max-width: 50
-0px) {
+@media screen and (max-width: 500px) {
 body{margin: 0; font-size:15px; font-family:Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden;}
 
 #container{}
