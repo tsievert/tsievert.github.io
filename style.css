@@ -50,7 +50,7 @@ address, article, aside, figcaption, figure, footer, header, hgroup, nav, sectio
 
 div.wrapper{display:block; width:100%; text-align:left;}
 
-.row1{color:#C0BAB6; background-color:#1E1E1E;}
+.row1{}
 .row2{color:#979797; background-color:#FFFFFF;}
 .row3{color:#666699; background-color:#33CCFF;}
 
@@ -66,14 +66,14 @@ h1, h2, h3, h4, h5, h6{margin-left: 0; margin-right: 0; margin-bottom: 0; margin
 #header{}
 
 /*--Content--*/
-#header #header1{display:block; float: left; width:100%; color:#FFFFFF; background-color:#33CCFF;}
+#header #header1{display:block; float: left; width:100%;}
 	
 /*----------------------------------------------Navbar-------------------------------------*/
 
 #navbar{}
 
 /*--Content--*/
-#navbar #nav1	{display:block; float: left; width:100%; color:#F2F2F2; text-align: center; padding: 1% 2%; text-decoration: none; font-size: 130%; word-spacing: 10px; background-color:#33CCFF;}
+#navbar #nav1	{display:block; float: left; width:100%; background-color:#4D4DFF; text-align: center; padding: 1% 2%; text-decoration: none; font-size: 130%; word-spacing: 10px;}
 
 /*----------------------------------------------Content Container-------------------------------------*/
 
