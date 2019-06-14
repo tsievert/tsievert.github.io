@@ -1,6 +1,6 @@
 ﻿/*--------------------------------------------Mobile Scaling----------------------------*/
 @media (max-width: 767px) {
-body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden;}
+body{margin: 0; font-size:15px; font-family:Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden;}
 
 #container{}
 
@@ -43,7 +43,7 @@ a:active {color: #0000FF;}
 /*------------------------------------------Scaling for desktop---------------------------*/
 @media (min-width: 768px) {
 /*----------------------------------------------Main--------------------------------------*/
-body{margin:0; padding:0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color:#000000; overflow-x:hidden;}
+body{margin:0; padding:0; font-size:15px; font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; color:#FFFFFF; background-color:#000000; overflow-x:hidden;}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; width:100%; clear:both;}
