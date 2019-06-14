@@ -118,7 +118,7 @@ table#t01 {table-layout: fixed;}
 
 /*-----------------------Some shared settings between mobile and desktop-------------------*/
 a{outline:none; text-decoration:none;}
-a:link {color: red;}
-a:visited {color: green;}
-a:hover {color: lime;}
-a:active {color: blue;}
+a:link {color: #FF0000;}
+a:visited {color: #008000;}
+a:hover {color: #00FF00;}
+a:active {color: #0000FF;}
