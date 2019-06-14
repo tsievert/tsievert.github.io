@@ -1,5 +1,5 @@
 ﻿/*--------------------------------------------Mobile Scaling----------------------------*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 720px) {
 body{margin: 0; font-size:15px; font-family:Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden;}
 
 #container{}
@@ -41,7 +41,7 @@ a:hover {color: #00FF00;}
 a:active {color: #0000FF;}
 
 /*------------------------------------------Scaling for desktop---------------------------*/
-@media only screen and (min-width: 501px) {
+@media only screen and (min-width: 721px) {
 /*----------------------------------------------Main--------------------------------------*/
 body{margin:0; padding:0; font-size:15px; font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; color:#FFFFFF; background-color:#000000; overflow-x:hidden;}
  
