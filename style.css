@@ -1,6 +1,6 @@
 ﻿/*--------------------------------------------Mobile Scaling---------------------------------*/
 @media (max-width: 767px) {
-body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden;}
+body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color:#000000; overflow-x:hidden;}
 
 #container{}
 
@@ -18,7 +18,7 @@ body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, s
 
 #navbar{}
 
-#navbar #nav1	{display: block; float: left; width: 100%; color: #F2F2F2; text-align: center; text-decoration: none; font-size: 95%; background-color:#33CCFF; margin-top: 2%;}
+#navbar #nav1	{display: block; float: left; width: 100%; text-align: center; text-decoration: none; font-size: 95%; background-color:#33CCFF; margin-top: 2%;}
 
 table {border-collapse: collapse; width: 96%; font-size: 13px; margin-bottom: 5%;}
 tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
