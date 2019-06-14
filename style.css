@@ -29,6 +29,17 @@ tr:hover {background-color: #CCFFE6;}
 #footer #footer1{text-align: center; color:#666699; padding-top: 0.5%}
 }
 
+/*-----------------------Some shared general settings between mobile and desktop-------------------*/
+#header, #navbar, #index_container, #container, #footer{display:block; width:100%;}
+
+h1, h2, h3, h4, h5, h6{margin-left: 0; margin-right: 0; margin-bottom: 0; margin-top: 2%; padding:0; font-size:24px; font-weight:normal; font-style:normal; line-height:normal; text-align: left;}
+
+a{outline:none; text-decoration:none;}
+a:link {color: #FF0000;}
+a:visited {color: #008000;}
+a:hover {color: #00FF00;}
+a:active {color: #0000FF;}
+
 /*------------------------------------------Scaling for desktop---------------------------*/
 @media (min-width: 768px) {
 /*----------------------------------------------Main--------------------------------------*/
@@ -53,13 +64,6 @@ div.wrapper{display:block; width:100%; text-align:left;}
 .row1{}
 .row2{color:#979797; background-color:#FFFFFF;}
 .row3{color:#FFFFFF;}
-
-/*----------------------------------------------Generalise-------------------------------------*/
-
-#header, #navbar, #index_container, #container, #footer{display:block; width:100%;}
-
-h1, h2, h3, h4, h5, h6{margin-left: 0; margin-right: 0; margin-bottom: 0; margin-top: 2%; padding:0; font-size:24px; font-weight:normal; font-style:normal; line-height:normal;}
-
 
 /*----------------------------------------------Header-------------------------------------*/
 
@@ -115,10 +119,3 @@ table#t01 {table-layout: fixed;}
 
 }
 /*------End of Desktop settings------*/
-
-/*-----------------------Some shared settings between mobile and desktop-------------------*/
-a{outline:none; text-decoration:none;}
-a:link {color: #FF0000;}
-a:visited {color: #008000;}
-a:hover {color: #00FF00;}
-a:active {color: #0000FF;}
