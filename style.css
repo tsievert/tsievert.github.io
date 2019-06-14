@@ -4,7 +4,7 @@ body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, s
 
 #container{}
 
-#container #col1{display:block; float:left; width:98%; color:#6C6E72;}
+#container #col1{display: block; float: left; width: 98%; color: #6C6E72;}
 #container #col1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto;}
 #container #col2{display: block; float: left; width: 98%; color: #979797; padding-left: 2%; background-color: #FFFFFF;}
 
@@ -12,7 +12,7 @@ body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, s
 
 #index_container #col_1{display: block; float: left; width: 100%; color: #6C6E72;}
 #index_container #col_1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto;}
-#index_container #col_2{display: block; float:left; width: 100%; color: #979797; padding-left: 2%; padding-left: 2%; background-color: #FFFFFF; margin-top: 2%;}
+#index_container #col_2{display: block; float:left; width: 98%; color: #979797; padding-left: 2%; padding-left: 2%; background-color: #FFFFFF; margin-top: 2%;}
 #index_container #col_3{display: none;}
 #index_container #col_mobile_talks{display: block; float:left; color: #979797; background-color: #FFFFB3; border: 1px solid #D1D1E0; padding: 0; margin-top: 2%; margin-bottom: -2%; border-style: dashed;}
 
@@ -32,7 +32,7 @@ tr:hover {background-color: #CCFFE6;}
 /*------------------------------------------Scaling for desktop------------------------------*/
 @media (min-width: 768px) {
 /*----------------------------------------------Main-----------------------------------------*/
-body{margin:0; padding:0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden;}
+body{margin:0; padding:0; font-size:15px; font-family:Georgia, "Times New Roman", Times, serif; color:#FFFFFF; background-color:#000000; overflow-x:hidden;}
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; width:100%; clear:both;}
@@ -52,7 +52,7 @@ div.wrapper{display:block; width:100%; text-align:left;}
 
 .row1{}
 .row2{color:#979797; background-color:#FFFFFF;}
-.row3{color:#FFFFFF; background-color:#000000;}
+.row3{color:#FFFFFF;}
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
