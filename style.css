@@ -8,9 +8,9 @@ body{margin: 0; font-size:15px; font-family:Georgia, "Times New Roman", Times, s
 
 #container{}
 
-#container #col1{display:block; float:left; width:100%; color:#6C6E72;}
+#container #col1{display:block; float:left; width:98%; color:#6C6E72;}
 #container #col1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto;}
-#container #col2{display:block; float:left; width:100%; color:#979797; padding-left: 2%; background-color:#FFFFFF;}
+#container #col2{display:block; float:left; width:98%; color:#979797; padding-left: 2%; background-color:#FFFFFF;}
 
 #index_container{}
 
@@ -26,7 +26,7 @@ tr:nth-child(odd) {height: 70px;}
 tr:hover {background-color: #CCFFE6;}
 
 #footer{}
-#footer #footer1{text-align: center; height: 20px; color:#666699;}
+#footer #footer1{text-align: center; height: 1%; color:#666699;}
 }
 
 /*------------------------------------------Scaling for desktop------------------------------*/
