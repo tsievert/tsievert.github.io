@@ -29,23 +29,6 @@ margin-top: 2%;}
 #index_container #col_3{display: none;}
 #index_container #col_mobile_talks{display:block; float:left; width:100%; color:#979797; background-color:#FFFFB3; border: 1px solid #D1D1E0; padding: 0; margin-top: 2%; margin-bottom: -2%; border-style: dashed;}
 
-a{outline:none; text-decoration:none;}
-a:link {
-  color: red;
-}
-
-a:visited {
-  color: green;
-}
-
-a:hover {
-  color: lime;
-}
-
-a:active {
-  color: blue;
-}
-
 table {
   border-collapse: collapse;
   width: 96%;
@@ -68,21 +51,6 @@ body{margin:0; padding:0; font-size:15px; font-family:Georgia, "Times New Roman"
 .clear{display:block; width:100%; clear:both;}
 html[xmlns] .clear{display:block;}
 * html .clear{height:1%;}
-
-a{outline:none; text-decoration:none;}
-a:link {
-  color: red;
-}
-a:visited {
-  color: green;
-}
-a:hover {
-  color: lime;
-}
-a:active {
-  color: blue;
-}
-
 
 .fl_left{float:left;}
 .fl_right{float: right;}
@@ -176,3 +144,10 @@ table#t01 {
 
 #footer #footer1{text-align: center; height: 20px; padding-top: 1%;}
 }
+
+/*-----------------------Some shared settings between mobile and desktop-------------------*/
+a{outline:none; text-decoration:none;}
+a:link {color: red;}
+a:visited {color: green;}
+a:hover {color: lime;}
+a:active {color: blue;}
