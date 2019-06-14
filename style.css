@@ -100,6 +100,7 @@ div.wrapper{display:block; width:100%; text-align:left;}
 #index_container #col_3{display:block; float:left; width:15%; color:#979797; background-color:#FFFFB3; border: 1px solid #D1D1E0; padding: 2%; margin-top: 2%; margin-bottom: 2%; border-style: dashed;}
 #index_container #col_mobile_talks{display: none;}
 
+img.sticky {position: -webkit-sticky; position: sticky; top: 0;}
 
 /*----------------------------------------------Table-------------------------------------*/
 	
