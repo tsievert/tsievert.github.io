@@ -55,7 +55,7 @@ address, article, aside, figcaption, figure, footer, header, hgroup, nav, sectio
 
 .wrapper {display:block; text-align:left; width:100%; }
 
-.row1 {position: sticky; top: 0;}
+.row1 {position: -webkit-sticky; position: sticky; top: 0;}
 .row2 {background-color:#FFFFFF; color:#979797;}
 .row3 {color:#FFFFFF;}
 
@@ -100,4 +100,4 @@ tr:hover {background-color: #CCFFE6;}
 #footer #footer1 {padding-top: 0.5%; text-align: center;}
 
 }
-/*------End of Desktop settings------*/
+/*------End of Desktop settings------*/	
