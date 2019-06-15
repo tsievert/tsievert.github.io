@@ -67,7 +67,7 @@ address, article, aside, figcaption, figure, footer, header, hgroup, nav, sectio
 /*----------------------------------------------Navbar-------------------------------------*/
 
 /*--Content--*/
-#navbar #nav1 {background-color:#33CCFF; display:block; float: left; font-size: 130%; padding: 1% 2%; text-align: center; text-decoration: none; width:100%; word-spacing: 10px;}
+#navbar #nav1 {background-color:#33CCFF; display:block; float: left; font-size: 130%; padding-top: 1%; text-align: center; text-decoration: none; width:100%; word-spacing: 10px;}
 
 /*----------------------------------------------Content Container--------------------------*/
 
