@@ -82,7 +82,7 @@ address, article, aside, figcaption, figure, footer, header, hgroup, nav, sectio
 #index_container #col_1 {color:#6C6E72; display:block; float:left; position: sticky; top: 3rem; width:20%;}
 #index_container #col_1 figure {font-size: smaller; font-style: italic; text-align: center; text-indent: 0;} img{border-radius: 5%; height: auto; margin-top: 8; max-width: 75%;}
 #index_container #col_2 {background-color:#FFFFFF; color:#979797; display:block; float:left; margin-right: 2%; margin-top: 2%; text-align: justify; width:58%;}
-#index_container #col_3 {background-color:#FFFFB3; border: 1px solid #D1D1E0; border-style: dashed; color:#979797; display:block; float:left; padding: 2%; margin-bottom: 2%; margin-top: 2%; position: sticky; top: 4.2rem; width:15%;}
+#index_container #col_3 {background-color:#FFFFB3; border: 1px solid #D1D1E0; border-style: dashed; color:#979797; display:block; float:left; padding: 2%; margin: 2% 0 2% 0; position: sticky; top: 4.2rem; width:15%;}
 #index_container #col_mobile_talks{left: -9999px !important; position: absolute !important; top: -9999px !important;}
 
 /*----------------------------------------------Table-------------------------------------*/
