@@ -1,4 +1,9 @@
-﻿/*--------------------------------------------Mobile Scaling----------------------------*/
+﻿@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* put webkit CSS here*/
+}
+
+
+/*--------------------------------------------Mobile Scaling----------------------------*/
 @media only screen and (max-width: 720px) {
 body{margin: 0; font-size:15px; font-family:Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden; }
 
@@ -20,14 +25,14 @@ body{margin: 0; font-size:15px; font-family:Verdana, "Trebuchet MS", Tahoma, Gen
 
 #navbar #nav1 {display: block; float: left; width: 100%; text-align: center; text-decoration: none; font-size: 95%; background-color: #33CCFF; margin-top: 2%; }
 
-table {border-collapse: collapse; width: 96%; font-size: 13px; margin-bottom: 5%; }
+table { border-collapse: collapse; width: 96%; font-size: 13px; margin-bottom: 5%; }
 tr:nth-child(even) { background-color: #F2F2F2; height: 50px; }
 tr:nth-child(odd) { height: 70px; }
-tr:hover {background-color: #CCFFE6; }
+tr:hover { background-color: #CCFFE6; }
 
 #footer{}
 #footer #footer1{ text-align: center; color:#666699; padding-top: 0.5% }
-}
+
 }
 
 /*-----------------------Some shared general settings between mobile and desktop-------------------*/
@@ -116,6 +121,5 @@ table#t01 {table-layout: fixed;}
 
 #footer #footer1{text-align: center; padding-top: 0.5%;}
 
-}
 }
 /*------End of Desktop settings------*/
