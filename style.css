@@ -28,6 +28,7 @@ tr:hover {background-color: #CCFFE6; }
 #footer{}
 #footer #footer1{ text-align: center; color:#666699; padding-top: 0.5% }
 }
+}
 
 /*-----------------------Some shared general settings between mobile and desktop-------------------*/
 #header, #navbar, #index_container, #container, #footer { display:block; width:100%; }
@@ -116,5 +117,5 @@ table#t01 {table-layout: fixed;}
 #footer #footer1{text-align: center; padding-top: 0.5%;}
 
 }
+}
 /*------End of Desktop settings------*/
-
