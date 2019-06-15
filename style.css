@@ -13,7 +13,7 @@ body{background-color: #33CCFF; color:#FFFFFF; font-family:Verdana, "Trebuchet M
 #index_container #col_mobile_talks{background-color: #FFFFB3; border: 1px solid #D1D1E0; border-style: dashed;  color: #979797; display: block; float:left; margin-top: 2%; margin-bottom: -2%; padding-left: 2%; padding-right: 2%; }
 
 
-#navbar #nav1 {background-color: #33CCFF; display: block; float: left; font-size: 95%; margin-top: 2%; text-align: center; text-decoration: none; } 
+#navbar #nav1 {background-color: #33CCFF; display: block; float: left; font-size: 95%; margin-top: 2%; text-align: center; text-decoration: none; width: 100%;} 
 
 table {border-collapse: collapse; font-size: 13px; margin-bottom: 5%; width: 96%;}
 tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
