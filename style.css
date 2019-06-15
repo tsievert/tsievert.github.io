@@ -1,35 +1,4 @@
-﻿/*--------------------------------------------Mobile Scaling----------------------------*/
-@media only screen and (max-width: 720px) {
-body{margin: 0; font-size:15px; font-family:Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden;}
-
-#container{}
-
-#container #col1{display: block; float: left; width: 98%; color: #6C6E72;}
-#container #col1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto;}
-#container #col2{display: block; float: left; width: 98%; color: #979797; padding-left: 2%; background-color: #FFFFFF;}
-
-#index_container{}
-
-#index_container #col_1{display: block; float: left; width: 100%; color: #6C6E72;}
-#index_container #col_1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto;}
-#index_container #col_2{display: block; float:left; width: 95%; color: #979797; padding-left: 2.5%; padding-right: 2.5%; text-align: justify; background-color: #FFFFFF; margin-top: 2%;}
-#index_container #col_3{ position: absolute !important; top: -9999px !important; left: -9999px !important;}
-#index_container #col_mobile_talks{display: block; float:left; color: #979797; background-color: #FFFFB3; border: 1px solid #D1D1E0; padding-left: 2%; padding-right: 2%; margin-top: 2%; margin-bottom: -2%; border-style: dashed;}
-
-#navbar{}
-
-#navbar #nav1 {display: block; float: left; width: 100%; text-align: center; text-decoration: none; font-size: 95%; background-color:#33CCFF; margin-top: 2%;}
-
-table {border-collapse: collapse; width: 96%; font-size: 13px; margin-bottom: 5%;}
-tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
-tr:nth-child(odd) {height: 70px;}
-tr:hover {background-color: #CCFFE6;}
-
-#footer{}
-#footer #footer1{text-align: center; color:#666699; padding-top: 0.5%}
-}
-
-/*-----------------------Some shared general settings between mobile and desktop-------------------*/
+﻿/*-----------------------Some shared general settings between mobile and desktop-------------------*/
 #header, #navbar, #index_container, #container, #footer{display:block; width:100%;}
 
 h1, h2, h3, h4, h5, h6{margin-left: 0; margin-right: 0; margin-bottom: 0; margin-top: 2%; padding:0; font-size:24px; font-weight:normal; font-style:normal; line-height:normal; text-align: left;}
