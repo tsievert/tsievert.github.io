@@ -1,14 +1,12 @@
 ﻿/*--------------------------------------------Mobile Scaling----------------------------*/
 @media only screen and (max-width: 720px) {
-body{margin: 0; font-size:15px; font-family:Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; color:#FFFFFF; background-color:#33CCFF; overflow-x:hidden; }
+body{background-color: #33CCFF; color:#FFFFFF; font-size:15px; font-family:Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; margin: 0;  overflow-x:hidden; }
 
-#container{}
 
-#container #col1{display: block; float: left; width: 98%; color: #6C6E72;}
-#container #col1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto; }
-#container #col2{display: block; float: left; width: 98%; color: #979797; padding-left: 2%; background-color: #FFFFFF; }
+#container #col1{color: #6C6E72; display: block; float: left; width: 98%;}
+#container #col1 figure{ font-size: smaller; font-style: italic; text-align: center;  text-indent: 0;} img{border-radius: 5%; height: auto; margin-top: 4%; max-width: 75%; }
+#container #col2{ background-color: #FFFFFF; color: #979797; display: block; float: left; padding-left: 2%; width: 98%; }
 
-#index_container{}
 
 #index_container #col_1{ display: block; float: left; width: 100%; color: #6C6E72;}
 #index_container #col_1 figure{ text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{ border-radius: 5%; max-width: 75%; margin-top: 4%; height: auto; }
@@ -16,7 +14,6 @@ body{margin: 0; font-size:15px; font-family:Verdana, "Trebuchet MS", Tahoma, Gen
 #index_container #col_3{ position: absolute !important; top: -9999px !important; left: -9999px !important;}
 #index_container #col_mobile_talks{ display: block; float:left; color: #979797; background-color: #FFFFB3; border: 1px solid #D1D1E0; padding-left: 2%; padding-right: 2%; margin-top: 2%; margin-bottom: -2%; border-style: dashed; }
 
-#navbar{}
 
 #navbar #nav1 {display: block; float: left; width: 100%; text-align: center; text-decoration: none; font-size: 95%; background-color: #33CCFF; margin-top: 2%; }
 
@@ -25,7 +22,6 @@ tr:nth-child(even) { background-color: #F2F2F2; height: 50px; }
 tr:nth-child(odd) { height: 70px; }
 tr:hover { background-color: #CCFFE6; }
 
-#footer{}
 #footer #footer1{ text-align: center; color:#666699; padding-top: 0.5% }
 
 }
@@ -67,30 +63,21 @@ div.wrapper{display:block; width:100%; text-align:left;}
 
 /*----------------------------------------------Header-------------------------------------*/
 
-#header{}
-
 /*--Content--*/
 #header #header1{display:block; float: left; width:100%;}
 	
 /*----------------------------------------------Navbar-------------------------------------*/
-
-#navbar{}
 
 /*--Content--*/
 #navbar #nav1 {display:block; float: left; width:100%; background-color:#33CCFF; text-align: center; padding: 1% 2%; text-decoration: none; font-size: 130%; word-spacing: 10px;}
 
 /*----------------------------------------------Content Container--------------------------*/
 
-#container{}
-
 /*--Content--*/
 
 #container #col1{display:block; float:left; width:20%; color:#6C6E72; position: sticky; top: 3rem;}
 #container #col1 figure{text-align: center; font-size: smaller; font-style: italic; text-indent: 0;} img{border-radius: 5%; max-width: 75%; margin-top: 8%; height: auto;}
 #container #col2{display:block; float:left; width:75%; color:#979797; background-color:#FFFFFF; text-align: justify;}
-
-
-#index_container{}
 
 /*--Content--*/
 
@@ -111,8 +98,6 @@ tr:hover {background-color: #CCFFE6;}
 table#t01 {table-layout: fixed;}
 
 /*----------------------------------------------Footer-------------------------------------*/
-
-#footer{}
 
 #footer #footer1{text-align: center; padding-top: 0.5%;}
 
