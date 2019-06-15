@@ -9,12 +9,6 @@ a:visited {color: #008000;}
 a:hover {color: #00FF00;}
 a:active {color: #0000FF;}
 
-@media only screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: 721px) {
-  body {background-color: white; color: white;}
-
-
-}
-
 /*--------------------------------------------Mobile Scaling----------------------------*/
 @media only screen and (max-width: 720px) {
 body{background-color: #33CCFF; color:#FFFFFF; font-family:Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; font-size:15px;  margin: 0;  overflow-x:hidden; }
@@ -107,3 +101,25 @@ tr:hover {background-color: #CCFFE6;}
 
 }
 /*------End of Desktop settings------*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: 721px) {
+ .wrapper {display:block; text-align:left; width:100%; }
+ .row1 {position: -webkit-sticky; top: 0;};
+ .row2 {background-color:#FFFFFF; color:#979797;}
+ .row3 {color:#FFFFFF;}
+
+ /*--Content--*/
+
+ #container #col1 {color:#6C6E72; display:block; float:left; position: -webkit-sticky; top: 3rem;}
+ #container #col1 figure{font-size: smaller; font-style: italic; text-align: center; text-indent: 0;} img{border-radius: 5%; height: auto; margin-top: 8%;  max-width: 50%;}
+ #container #col2 {background-color:#FFFFFF; color:#979797; display:block; float:left; text-align: justify; width:70%;}
+
+ /*--Content--*/
+
+ #index_container #col_1 {color:#6C6E72; display:block; float:left; position: sticky; top: 3rem;}
+ #index_container #col_1 figure {font-size: smaller; font-style: italic; text-align: center; text-indent: 0;} img{border-radius: 5%; height: auto; margin-top: 8; max-width: 75%;}
+ #index_container #col_2 {background-color:#FFFFFF; color:#979797; display:block; float:left; margin-right: 2%; margin-top: 2%; text-align: justify; width:58%;}
+ #index_container #col_3 {background-color:#FFFFB3; border: 1px solid #D1D1E0; border-style: dashed; color:#979797; display:block; float:left; margin: 2% 0 2% 0; padding: 2%; position: -webkit-sticky; top: 4.2rem; width:15%;}
+ #index_container #col_mobile_talks{left: -9999px !important; position: absolute !important; top: -9999px !important;}
+
+}
