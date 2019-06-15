@@ -102,7 +102,7 @@ tr:hover {background-color: #CCFFE6;}
 }
 /*------End of Desktop settings------*/
 
-/*------Settings for stupis Safari------*/
+/*------Settings for stupid Safari------*/
 
 @media only screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: 721px) {
  body {background-color:#000000; color:#FFFFFF; font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; font-size:15px;  margin:0; overflow-x:hidden; padding:0;}
