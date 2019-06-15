@@ -117,7 +117,7 @@ html[xmlns] .clear {display:block;}
 #header #header1 {display:block; float: left; width:100%;}
  
 .wrapper {display:block; text-align:left; width:100%; }
-.row1 {position: -webkit-sticky; top: 0;};
+.row1 {};
 .row2 {background-color:#FFFFFF; color:#979797;}
 .row3 {color:#FFFFFF;}
 
