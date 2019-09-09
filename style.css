@@ -24,7 +24,7 @@ body{background-color: #d0cec8; color:#eeebe0; font-family:Verdana, "Trebuchet M
 #index_container #col_mobile_talks{background-color: #FFFFB3; border: 1px solid #D1D1E0; border-style: dashed;  color: #979797; display: block; float:left; margin-bottom: -2%; margin-top: 2%; padding-left: 2%; padding-right: 2%; }
 
 
-#navbar #nav1 {background-color: #33CCFF; display: block; float: left; font-size: 95%; margin-top: 2%; text-align: center; text-decoration: none; width: 100%;} 
+#navbar #nav1 {background-color: #adadad; display: block; float: left; font-size: 95%; margin-top: 2%; text-align: center; text-decoration: none; width: 100%;} 
 
 table {border-collapse: collapse; margin-bottom: 5%; width: 96%;}
 tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
@@ -37,7 +37,7 @@ tr:hover {background-color: #CCFFE6;}
 
 /*------------------------------------------Scaling for desktop---------------------------*/
 @media only screen and (min-width: 721px) {
-body {background-color:#000000; color:#eeebe0; font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; font-size:15px;  margin:0; overflow-x:hidden; padding:0;}
+body {background-color:#6C6E72; color:#eeebe0; font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; font-size:15px;  margin:0; overflow-x:hidden; padding:0;}
  
 .clear:after {clear:both; content:"."; display:block; height:0; line-height:0; visibility:hidden;}
 .clear {clear:both; display:block; width:100%;}
@@ -67,7 +67,7 @@ address, article, aside, figcaption, figure, footer, header, hgroup, nav, sectio
 /*----------------------------------------------Navbar-------------------------------------*/
 
 /*--Content--*/
-#navbar #nav1 {background-color:#33CCFF; display:block; float: left; font-size: 130%; padding: 1% 2%; text-align: center; text-decoration: none; width:100%; word-spacing: 10px;}
+#navbar #nav1 {background-color:#adadad; display:block; float: left; font-size: 130%; padding: 1% 2%; text-align: center; text-decoration: none; width:100%; word-spacing: 10px;}
 
 /*----------------------------------------------Content Container--------------------------*/
 
