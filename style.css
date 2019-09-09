@@ -2,7 +2,7 @@
 #header, #navbar, #index_container, #container, #footer { display:block; width:100%; }
 
 h1, h2, h3 {font-size:24px; font-style:normal; font-weight:normal; line-height:normal; margin: 2% 0 0 0; padding:0; text-align: left; }
-h4, h5, h6 {font-size:18px; font-style:normal; font-weight:normal; line-height:normal; margin: 2% 0 0 0; padding:0; text-align: left; }
+h4, h5, h6 {font-size:16px; font-style:normal; font-weight:normal; line-height:normal; margin: 2% 0 0 0; padding:0; text-align: left; }
 
 a {outline:none; text-decoration:none;}
 a:link {color: #000000; text-decoration: underline;}
