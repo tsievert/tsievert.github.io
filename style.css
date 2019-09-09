@@ -21,7 +21,7 @@ body{background-color: #d0cec8; color:#eeebe0; font-family:Verdana, "Trebuchet M
 #index_container #col_1 figure{font-size: smaller; font-style: italic; height: auto; text-align: center; text-indent: 0; } img{ border-radius: 5%; margin-top: 4%; max-width: 75%; }
 #index_container #col_2{background-color: #eeebe0; color: #979797; display: block; float:left; margin-top: 2%; padding-left: 2.5%; padding-right: 2.5%; text-align: justify;  }
 #index_container #col_3{display: none;}
-#index_container #col_mobile_talks{background-color: #f5f5bb; border: 1px solid #ff0e00; border-style: dashed;  color: #979797; display: block; float:left; margin-bottom: -2%; margin-top: 2%; padding-left: 2%; padding-right: 2%; }
+#index_container #col_mobile_talks{background-color: #ffff00; border: 1px solid #6C6E72; border-style: dashed;  color: #979797; display: block; float:left; margin-bottom: -2%; margin-top: 2%; padding-left: 2%; padding-right: 2%; }
 
 
 #navbar #nav1 {background-color: #adadad; display: block; float: left; font-size: 95%; margin-top: 2%; text-align: center; text-decoration: none; width: 100%;} 
@@ -82,7 +82,7 @@ address, article, aside, figcaption, figure, footer, header, hgroup, nav, sectio
 #index_container #col_1 {color:#6C6E72; display:block; float:left; position: -webkit-sticky; position: sticky; top: 3rem; width:20%;}
 #index_container #col_1 figure {font-size: smaller; font-style: italic; text-align: center; text-indent: 0;} img{border-radius: 5%; height: auto; margin-top: 8; max-width: 75%;}
 #index_container #col_2 {background-color:#eeebe0; color:#979797; display:block; float:left; margin-right: 2%; margin-top: 2%; text-align: justify; width:58%;}
-#index_container #col_3 {background-color:#f5f5bb; border: 1px solid #ff0e00; border-style: dashed; color:#979797; display:block; float:left; margin: 2% 0 2% 0; padding: 2%; position: -webkit-sticky; position: sticky; top: 4.2rem; width:15%;}
+#index_container #col_3 {background-color:#ffff00; border: 1px solid #6C6E72; border-style: dashed; color:#979797; display:block; float:left; margin: 2% 0 2% 0; padding: 2%; position: -webkit-sticky; position: sticky; top: 4.2rem; width:15%;}
 #index_container #col_mobile_talks{display: none;}
 
 /*----------------------------------------------Table-------------------------------------*/
