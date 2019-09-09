@@ -37,7 +37,7 @@ tr:hover {background-color: #f7f7f7;}
 
 /*------------------------------------------Scaling for desktop---------------------------*/
 @media only screen and (min-width: 721px) {
-body {background-color:#6C6E72; color:#ff0000; font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; font-size:15px;  margin:0; overflow-x:hidden; padding:0;}
+body {background-color:#6C6E72; color:#eeebe0; font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; font-size:15px;  margin:0; overflow-x:hidden; padding:0;}
  
 .clear:after {clear:both; content:"."; display:block; height:0; line-height:0; visibility:hidden;}
 .clear {clear:both; display:block; width:100%;}
