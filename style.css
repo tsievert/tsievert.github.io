@@ -99,7 +99,7 @@ tr:hover {background-color: #f7f7f7;}
 
 /*----------------------------------------------Footer-------------------------------------*/
 
-#footer #footer1 {padding-top: 0.5%; text-align: center;}
+#footer #footer1 {background-color:#adadad; padding-top: 0.5%; text-align: center;}
 
 }
 /*------End of Desktop settings------*/	
