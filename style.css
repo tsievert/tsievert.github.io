@@ -33,7 +33,7 @@ tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
 tr:nth-child(odd) {height: 70px;}
 tr:hover {background-color: #f7f7f7;}
 
-#footer #footer1{color:#666699; padding-top: 0.5%; text-align: center;}
+#footer #footer1{color:#adadad; padding-top: 0.5%; text-align: center;}
 
 }
 
