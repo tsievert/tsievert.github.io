@@ -1,7 +1,9 @@
 ﻿/*-----------------------Some shared general settings between mobile and desktop-------------------*/
 #header, #navbar, #index_container, #container, #footer { display:block; width:100%; }
 
-h1, h2, h3 {font-size:24px; font-style:normal; font-weight:normal; line-height:normal; margin: 2% 0 0 0; padding:0; text-align: left; }
+h1 {font-size:26px; font-style:normal; font-weight:normal; line-height:normal; margin: 2% 0 0 0; padding:0; text-align: left; }
+h2 {font-size:23px; font-style:normal; font-weight:normal; line-height:normal; margin: 2% 0 0 0; padding:0; text-align: left; }
+h3 {font-size:19px; font-style:normal; font-weight:normal; line-height:normal; margin: 2% 0 0 0; padding:0; text-align: left; }
 h4, h5, h6 {font-size:16px; font-style:normal; font-weight:normal; line-height:normal; margin: 2% 0 0 0; padding:0; text-align: left; }
 
 a {outline:none; text-decoration:none;}
