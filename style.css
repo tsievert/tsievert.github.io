@@ -15,7 +15,7 @@ a.talks { word-spacing: 0.005em; text-decoration: underline;}
 
 /*--------------------------------------------Mobile Scaling----------------------------*/
 @media only screen and (max-width: 720px) {
-body{background-color: #d0cec8; color:#626262; font-family:Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; font-size:15px;  margin: 0;  overflow-x:hidden; }
+body{font-family:Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif"; font-size:15px;  margin: 0;  overflow-x:hidden; }
 
 #container #col1{color: #6C6E72; display: block; float: left; width: 98%;}
 #container #col1 figure{ font-size: smaller; font-style: italic; text-align: center;  text-indent: 0;} img{border-radius: 5%; height: auto; margin-top: 4%; max-width: 75%; }
