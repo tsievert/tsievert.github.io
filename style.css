@@ -185,6 +185,7 @@ address, article, aside, figcaption, figure, footer, header, hgroup, nav, sectio
 #index_container #col_mobile_talks{display: none;}
 
 /*----------------------------------------------Table-------------------------------------*/
+th:empty {visibility: hidden;}	
 	
 table {border-collapse: collapse; margin-bottom: 5%; width: 100%;}
 
