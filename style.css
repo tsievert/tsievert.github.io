@@ -128,7 +128,7 @@ a.talks { word-spacing: 0.005em; text-decoration: underline;}
 
 
 table {border-collapse: collapse; margin-bottom: 5%; width: 96%;}
-tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
+tr:nth-child(even) {background-color: #F2F2F2; height: 70px;}
 tr:nth-child(odd) {height: 70px;}
 tr:hover {background-color: #f7f7f7;}
 
@@ -190,7 +190,7 @@ th:empty {visibility: hidden;}
 table {border-collapse: collapse; margin-bottom: 5%; width: 100%;}
 
 tr:nth-child(even) {background-color: #F2F2F2; height: 50px;}
-tr:nth-child(odd) {height: 100px;}
+tr:nth-child(odd) {height: 50px;}
 tr:hover {background-color: #f7f7f7;}
 
 #t01 {table-layout: fixed;}
