@@ -110,6 +110,13 @@ a:hover {color: #5b5151; text-decoration: underline;}
 a:active {color: #5b5151; text-decoration: underline;}
 a.talks { word-spacing: 0.005em; text-decoration: underline;}
 
+
+/*--------------------------------------------Special Bibbase scaling----------------------------*/
+
+img.bibbase_icon {
+  max-height: 16px !important;
+}
+
 /*--------------------------------------------Mobile Scaling----------------------------*/
 
 @media only screen and (max-width: 720px) {
