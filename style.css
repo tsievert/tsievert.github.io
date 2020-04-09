@@ -117,6 +117,10 @@ img.bibbase_icon {
   max-height: 16px !important;
 }
 
+img.bibbase_icon {
+  margin-top: 0px;
+}
+
 /*--------------------------------------------Mobile Scaling----------------------------*/
 
 @media only screen and (max-width: 720px) {
