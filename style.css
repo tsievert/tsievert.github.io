@@ -176,7 +176,7 @@ table {border-collapse: collapse; margin-bottom: 5%; width: 100%;}
 #tcv .details td:nth-of-type(2):before { content: "Position"; }
 #tcv .details td:nth-of-type(3):before { content: "When"; }
 
-#footer1 {color:#eeebe0; padding-bottom: 5%; text-align: center; padding-top: 1000px !important;}
+#footer1 {color:#eeebe0; padding-bottom: 5%; text-align: center;}
 
 #container #col1{color: #eeebe0; display: block; float: left; width: 98%;}
 #container #col1 figure{ font-size: smaller; font-style: italic; text-align: center;  text-indent: 0;} img{border-radius: 5%; height: auto; margin-top: 4%; max-width: 75%; }
