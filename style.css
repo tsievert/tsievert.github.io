@@ -1,4 +1,4 @@
-﻿/*-----------------------Some shared general settings between mobile and desktop-------------------*/
+/*-----------------------Some shared general settings between mobile and desktop-------------------*/
 #header, #navbar, #index_container, #container, #footer { display:block; width:100%; }
 
 body {  font-size: 100%; background-color:#6C6E72; color:#626262; font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri, "Microsoft Sans Serif";  margin:0; overflow-x:hidden; padding:0;}
@@ -122,12 +122,65 @@ img.bibbase_icon {
 }
 
 /*--------------------------------------------Mobile Scaling----------------------------*/
+@media
+only screen and (max-width: 720px) {
 
-@media only screen and (max-width: 720px) {
+p, h1, h2, h3, h4 {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+table {border-collapse: collapse; margin-bottom: 5%; width: 100%;}
+ #t01 tr:nth-child(even) {background-color: #F2F2F2; height: 3em;}
+ #t01 tr:nth-child(odd) {height: 3em;}
+ #t01 tr:hover {background-color: #f7f7f7;}
+ /* Force table to not be like tables anymore */
+	#tcv, #tcv thead, #tcv tbody, #tcv thead tr th, #tcv tbody tr td, #tcv tbody tr {
+		display: block;
+	}
+		/* Hide table headers (but not display: none;, for accessibility) */
+	#tcv thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+  #tcv tbody tr {
+    margin: 0 0 1rem 0;
+  }
+
+  #tcv tbody tr:nth-child(odd) {
+    background: #ccc;
+  }
+
+  #tcv tbody tr td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+ }
+
+ #tcv tbody tr td:before {
+  	/* Now like a table header */
+  	position: absolute;
+  	/* Top/left values mimic padding */
+  	top: 0;
+  	left: 6px;
+  	width: 45%;
+  	padding-right: 10px;
+  	white-space: nowrap;
+}
+
+
+#tcv .details td:nth-of-type(1):before { content: "Place"; }
+#tcv .details td:nth-of-type(2):before { content: "Position"; }
+#tcv .details td:nth-of-type(3):before { content: "When"; }
+
+#footer #footer1{color:#eeebe0; padding-top: 0.5%; text-align: center;}
 
 #container #col1{color: #eeebe0; display: block; float: left; width: 98%;}
 #container #col1 figure{ font-size: smaller; font-style: italic; text-align: center;  text-indent: 0;} img{border-radius: 5%; height: auto; margin-top: 4%; max-width: 75%; }
-#container #col2{background-color:#eeebe0; color:#626262; display: block; float: left; padding-left: 2%; padding-right: 2%; width: 96%;}
+#container #col2{background-color:#eeebe0; color:#626262; display: block; float: left; width: 100%;}
 #center_container #center {background-color:#eeebe0; color:#626262; display:block; float:left; text-align: justify; width:100%; text-align: center;}
 
 #index_container #col_1{color:#eeebe0; display: block; float: left; width: 100%;}
@@ -136,22 +189,13 @@ img.bibbase_icon {
 #index_container #col_3{display: none;}
 #index_container #col_mobile_talks{background-color:#fef8d6; border: 1px solid #6C6E72; border-style: dashed;  color: #626262; display: block; float:left; margin-bottom: -2%; margin-top: 2%; padding-left: 2%; padding-right: 2%; }
 
-
-
-table {border-collapse: collapse; margin-bottom: 5%; width: 96%;}
-tr:nth-child(even) {background-color: #F2F2F2; height: 70px;}
-tr:nth-child(odd) {height: 70px;}
-tr:hover {background-color: #f7f7f7;}
-
-#footer #footer1{color:#eeebe0; padding-top: 0.5%; text-align: center;}
-
 }
 
 
 /*------------------------------------------Scaling for desktop---------------------------*/
 @media only screen and (min-width: 721px) {
 
- 
+
 .clear:after {clear:both; content:"."; display:block; height:0; line-height:0; visibility:hidden;}
 .clear {clear:both; display:block; width:100%;}
 html[xmlns] .clear {display:block;}
@@ -192,17 +236,21 @@ address, article, aside, figcaption, figure, footer, header, hgroup, nav, sectio
 #index_container #col_1 {color:#6C6E72; display:block; float:left; position: -webkit-sticky; position: sticky; top: 3rem; width:20%;}
 #index_container #col_1 figure {font-size: smaller; font-style: italic; text-align: center; text-indent: 0;} img{border-radius: 5%; height: auto; margin-top: 8%; max-width: 75%;}
 #index_container #col_2 {background-color:#eeebe0; color:#626262; display:block; float:left; margin-right: 2%; margin-top: 2%; text-align: justify; width:58%;}
-#index_container #col_3 {background-color:#fef8d6; border: 1px solid #6C6E72; border-style: dashed; color:#626262; display:block; float:left; margin: 2% 0 2% 0; padding: 2%; position: -webkit-sticky; position: sticky; top: 4.2rem; width:15%;}
+#index_container #col_3 {background-color:#fef8d6; border: 1px solid #6C6E72; border-style: dashed; color:#626262; display:block; float:left; margin: 2% 0 2% 0; padding: 2%; position: -webkit-sticky; position: sticky; top: 4.2rem; width: 15%;}
 #index_container #col_mobile_talks{display: none;}
 
 /*----------------------------------------------Table-------------------------------------*/
-th:empty {visibility: hidden;}	
-	
+th:empty {visibility: hidden;}
+
 table {border-collapse: collapse; margin-bottom: 5%; width: 100%;}
 
-tr:nth-child(even) {background-color: #F2F2F2; height: 70px;}
-tr:nth-child(odd) {height: 70px;}
-tr:hover {background-color: #f7f7f7;}
+#t01 tr:nth-child(even) {height: 70px;}
+#t01 tr:nth-child(odd) {background-color: #F2F2F2; height: 70px;}
+#t01 tr:hover {background-color: #f7f7f7;}
+
+#tcv tbody tr:nth-child(even) {height: 70px;}
+#tcv tbody tr:nth-child(odd) {background-color: #F2F2F2; height: 70px;}
+#tcv tbody tr:hover {background-color: #f7f7f7;}
 
 #t01 {table-layout: fixed;}
 
@@ -211,4 +259,4 @@ tr:hover {background-color: #f7f7f7;}
 #footer #footer1 {background-color:#6c6e72; padding-top: 0.5%; text-align: center;}
 
 }
-/*------End of Desktop settings------*/	
+/*------End of Desktop settings------*/
