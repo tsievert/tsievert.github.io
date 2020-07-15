@@ -1,42 +1,25 @@
-function getTimeRemaining(endtime) {
-  const total = Date.parse(endtime) - Date.parse(new Date());
-  const seconds = Math.floor((total / 1000) % 60);
-  const minutes = Math.floor((total / 1000 / 60) % 60);
-  const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
-  const days = Math.floor(total / (1000 * 60 * 60 * 24));
-  
-  return {
-    total,
-    days,
-    hours,
-    minutes,
-    seconds
-  };
-}
+const second = 1000,
+      minute = second * 60,
+      hour = minute * 60,
+      day = hour * 24;
 
-function initializeClock(id, endtime) {
-  const clock = document.getElementById(id);
-  const daysSpan = clock.querySelector('.days');
-  const hoursSpan = clock.querySelector('.hours');
-  const minutesSpan = clock.querySelector('.minutes');
-  const secondsSpan = clock.querySelector('.seconds');
+let countDown = new Date('July 10 2021 13:30:00 GMT+0200').getTime(),
+    x = setInterval(function() {    
 
-  function updateClock() {
-    const t = getTimeRemaining(endtime);
+      let now = new Date().getTime(),
+          distance = countDown - now;
 
-    daysSpan.innerHTML = t.days;
-    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+      document.getElementById('days').innerText = Math.floor(distance / (day)),
+        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
-    if (t.total <= 0) {
-      clearInterval(timeinterval);
-    }
-  }
+      //do something later when date is reached
+      if (distance < 0) {
+      clearInterval(x);
+      Thank you all for the amazing day!;
+      }
 
-  updateClock();
-  const timeinterval = setInterval(updateClock, 1000);
-}
+    }, second)
 
-const deadline = new Date(Date.parse(new Date('July 10 2021 13:30:00 GMT+0200')) );
-initializeClock('clockdiv', deadline);
+
