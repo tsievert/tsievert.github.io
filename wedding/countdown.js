@@ -17,7 +17,7 @@ let countDown = new Date('July 10 2021 14:00:00 GMT+0200').getTime(),
       //do something later when date is reached
       if (distance < 0) {
       clearInterval(x);
-      Thank you all for the amazing day!;
+      'Thank you all for the amazing day!';
       }
 
     }, second)
