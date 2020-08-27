@@ -533,16 +533,14 @@ img.bibbase_icon {
     width: 100%;
   }
 
-  .auto {
-    white-space: nowrap;
-  }
-
   td, th {
     border: 1px solid #6c6e72;
     padding: 15px;
-    width: 33.33%
-  }
+      }
 
+  #t01 {
+    table-layout: auto;
+  }
   #t01 tr:nth-child(even) {
     height: 70px;
   }
@@ -554,6 +552,9 @@ img.bibbase_icon {
     background-color: #f7f7f7;
   }
 
+  #tcv {
+    table-layout: auto;
+  }
   #tcv tbody tr:nth-child(even) {
     height: 70px;
   }
@@ -563,10 +564,6 @@ img.bibbase_icon {
   }
   #tcv tbody tr:hover {
     background-color: #f7f7f7;
-  }
-
-  #t01 {
-    table-layout: fixed;
   }
 
   /*----------------------------------------------Footer-------------------------------------*/
