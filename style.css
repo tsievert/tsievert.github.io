@@ -556,7 +556,7 @@ img.bibbase_icon {
   }
 
   #t01 {
-    table-layout: fixed;
+    table-layout: auto;
   }
 
   /*----------------------------------------------Footer-------------------------------------*/
