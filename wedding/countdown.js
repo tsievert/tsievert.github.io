@@ -3,7 +3,7 @@ const second = 1000,
   hour = minute * 60,
   day = hour * 24;
 
-let countDown = new Date("July 10 2021 14:00:00 GMT+0200").getTime(),
+let countDown = new Date("July 16 2022 14:00:00 GMT+0200").getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
