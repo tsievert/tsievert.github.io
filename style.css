@@ -200,16 +200,6 @@ img.bibbase_icon {
     margin-bottom: 5%;
     width: 100%;
   }
-  #tteach tr:nth-child(even) {
-    background-color: #f2f2f2;
-    height: 3em;
-  }
-  #tteach tr:nth-child(odd) {
-    height: 3em;
-  }
-  #tteach tr:hover {
-    background-color: #f7f7f7;
-  }
   /* Force table to not be like tables anymore */
   #tcv,
   #tcv thead,
@@ -264,6 +254,118 @@ img.bibbase_icon {
   }
   #tcv .details td:nth-of-type(4):before {
     content: "Major publication/Thesis";
+  }
+
+  /* Repeat table modifying for other tables: tteach */
+  /* Force table to not be like tables anymore */
+  #tteach,
+  #tteach thead,
+  #tteach tbody,
+  #tteach thead tr th,
+  #tteach tbody tr td,
+  #tteach tbody tr {
+    display: block;
+  }
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #tteach thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  #tteach tbody tr {
+    margin: 0 0 1rem 0;
+  }
+
+  #tteach tbody tr:nth-child(odd) {
+    background: #ccc;
+  }
+
+  #tteach tbody tr td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  #tteach tbody tr td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 0;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  #tteach .details td:nth-of-type(1):before {
+    content: "Year";
+  }
+  #tteach .details td:nth-of-type(2):before {
+    content: "Course";
+  }
+  #tteach .details td:nth-of-type(3):before {
+    content: "Content";
+  }
+  
+
+/* Repeat table modifying for other tables: tpresent */
+  /* Force table to not be like tables anymore */
+  #tpresent,
+  #tpresent thead,
+  #tpresent tbody,
+  #tpresent thead tr th,
+  #tpresent tbody tr td,
+  #tpresent tbody tr {
+    display: block;
+  }
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #tpresent thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  #tpresent tbody tr {
+    margin: 0 0 1rem 0;
+  }
+
+  #tpresent tbody tr:nth-child(odd) {
+    background: #ccc;
+  }
+
+  #tpresent tbody tr td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  #tpresent tbody tr td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 0;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  #tpresent .detailspresent td:nth-of-type(1):before {
+    content: "Year";
+  }
+  #tpresent .detailspresent td:nth-of-type(2):before {
+    content: "Conference";
+  }
+  #tpresent .detailspresent td:nth-of-type(3):before {
+    content: "Title";
+  }
+  #tpresent .detailspresent td:nth-of-type(4):before {
+    content: "Type";
   }
 
   #footer1 {
@@ -538,10 +640,10 @@ img.bibbase_icon {
     padding: 10px;
       }
 
-  #tteach {
+  #tpresent {
     table-layout: auto;
   }
-  #tteach tr:nth-child(even) {
+  #tpresent tr:nth-child(even) {
     height: 70px;
   }
   #tteach tr:nth-child(odd) {
