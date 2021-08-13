@@ -423,6 +423,7 @@ img.bibbase_icon {
     text-indent: 0;
   }
   img {
+    height: auto;
     border-radius: 5%;
     margin-top: 4%;
     max-width: 75%;
