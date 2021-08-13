@@ -36,6 +36,12 @@ h4 {
   font-size-adjust: 0.5;
 }
 
+/* Experimental aspect ratio force for img  */
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
+/* End experiment  */
+
 #page {
   font-size: 1em;
   /* equivalent to 16px */
