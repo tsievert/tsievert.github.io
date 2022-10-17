@@ -583,13 +583,14 @@ img.bibbase_icon {
   /*--Content--*/
 
   #index_container #col_1 {
-    color: #6c6e72;
+    color: #6c6e72;  
     display: block;
     float: left;
     position: -webkit-sticky;
     position: sticky;
     top: 3rem;
     width: 27%;
+    min-width: 27%;
   }
   #index_container #col_1 figure {
     font-size: smaller;
