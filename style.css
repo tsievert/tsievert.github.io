@@ -212,7 +212,7 @@ img.bibbase_icon {
   }
 
   #index_container {
-    display: block;
+    display: block; 
   }
 
   /* Force table to not be like tables anymore */
