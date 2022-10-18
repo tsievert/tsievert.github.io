@@ -49,6 +49,10 @@ img {
   /* equivalent to 20px */
 }
 
+#index_container {
+  display: flex;
+}
+
 @media (min-width: 43.75em) {
   #page {
     font-size: 1em;
