@@ -210,6 +210,11 @@ img.bibbase_icon {
     margin-bottom: 5%;
     width: 100%;
   }
+
+  #index_container {
+    display: block;
+  }
+
   /* Force table to not be like tables anymore */
   #tcv,
   #tcv thead,
