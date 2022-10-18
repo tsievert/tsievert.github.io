@@ -590,7 +590,7 @@ img.bibbase_icon {
     position: sticky;
     top: 3rem;
     width: 27%;
-    min-width: 27%;
+    /* min-width: 27%; */
   }
   #index_container #col_1 figure {
     font-size: smaller;
