@@ -1,18 +1,23 @@
-const hamburgerMenu = document.querySelector('.hamburger-menu');
-const navbar = document.querySelector('nav');
-const navLinks = document.querySelectorAll('nav a');
+const navbar = document.querySelector('.navbar');
+const toggleButton = document.querySelector('.toggle-button');
 
-hamburgerMenu.addEventListener('click', () => {
-  navbar.classList.toggle('show');
-});
+const toggleNavbar = () => {
+  navbar.classList.toggle('active');
+};
 
+toggleButton.addEventListener('click', toggleNavbar);
+
+const navLinks = document.querySelectorAll('.navbar a');
 navLinks.forEach(link => {
   link.addEventListener('click', () => {
-    navLinks.forEach(item => item.classList.remove('active'));
-    link.classList.add('active');
-    
-    if (window.innerWidth <= 600) {
-      navbar.classList.remove('show');
-    }
+    navbar.classList.remove('active');
   });
+});
+
+const currentPath = window.location.pathname;
+
+navLinks.forEach(link => {
+  if (link.getAttribute('href') === currentPath) {
+    link.classList.add('active');
+  }
 });
