@@ -1,12 +1,18 @@
 const hamburgerMenu = document.querySelector('.hamburger-menu');
-const navLinks = document.querySelector('.nav-links');
+const navbar = document.querySelector('nav');
+const navLinks = document.querySelectorAll('nav a');
 
 hamburgerMenu.addEventListener('click', () => {
-  navLinks.classList.toggle('show');
+  navbar.classList.toggle('show');
 });
 
-navLinks.querySelectorAll('.nav-item').forEach(link => {
+navLinks.forEach(link => {
   link.addEventListener('click', () => {
-    navLinks.classList.remove('show');
+    navLinks.forEach(item => item.classList.remove('active'));
+    link.classList.add('active');
+    
+    if (window.innerWidth <= 600) {
+      navbar.classList.remove('show');
+    }
   });
 });
