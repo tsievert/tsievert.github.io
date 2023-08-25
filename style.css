@@ -113,6 +113,7 @@
   color: var(--navbar-active-text);
 }
 
+/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
