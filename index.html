@@ -99,27 +99,17 @@
 </head>
 
   <body>
-    <div class="topnav" id="myTopnav" style="display: flex; align-items: center; justify-content: space-between;">
-      <div>
-        <a href="" class="active">Overview</a>
-        <a href="cv">CV</a>
-        <a href="publications">Publications</a>
-        <a href="presentations">Talks & Posters</a>
-        <a href="teaching">Teaching</a>
-        <a href="javascript:void(0);" class="icon" onclick="responsiveNav()"></a> 
-      </div>
-      <div>
+    <div class="topnav" id="myTopnav">
+      <a href="" class="active">Overview</a>
+	    <a href="cv">CV</a>
+	    <a href="publications">Publications</a>
+	    <a href="presentations">Talks & Posters</a>
+	    <a href="teaching">Teaching</a>
+	    <a href="javascript:void(0);" class="icon" onclick="responsiveNav()"></a> 
+      <div style="float:right; display: flex; align-items: center;">
         <input type="checkbox" id="toggle-darkmode"/>
         <label for="toggle-darkmode"><span>Toggle Light/Dark Mode</span></label>
       </div>
-      <script>
-        // Check the dark-mode checkbox if
-        // - The override is set to dark
-        // - No override is set but the system prefers dark mode
-        if ((colorModeOverride == 'dark') || (!hasColorModeOverride && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-          document.querySelector('#toggle-darkmode').checked = true;
-        }
-      </script>
     </div>
     <div class="wrapper row2">
       <div id="index_container" class="clear">
