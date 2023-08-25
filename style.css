@@ -678,24 +678,30 @@ img.bibbase_icon {
     background-color: var(--table-highlight);
     height: 70px;
   }
+
   #tteach tr:nth-child(odd) {
         height: 70px;
-  }
- 
-  #tpresent {
+  } 
+  #tteach {
     table-layout: auto;
   }
-  #tpresent tr:nth-child(even) {
+  #tteach thead {
+    background-color: var(--table-highlight);
+  }
+  #tteach tr:nth-child(even) {
     background-color: var(--table-highlight);
     height: 70px;
   }
-  #tpresent tr:nth-child(odd) {
+  #tteach tr:nth-child(odd) {
     
     height: 70px;
   }
  
   #tcv {
     table-layout: auto;
+  }
+  #tcv thead {
+    background-color: var(--table-highlight);
   }
   #tcv tbody tr:nth-child(even) {
     background-color: var(--table-highlight);

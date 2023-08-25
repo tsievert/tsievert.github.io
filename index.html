@@ -79,7 +79,16 @@
     <meta name="og:site_name" content="tsievert.com" />
     <meta name="og:locale" content="en_GB" />
     <meta name="og:type" content="website" />
-
+<!-- Darkmode toogle -->
+<script>
+  // Check if there's any override. If so, let the markup know by setting an attribute on the <html> element
+  const colorModeOverride = window.localStorage.getItem('color-mode');
+  const hasColorModeOverride = typeof colorModeOverride === 'string';
+  if (hasColorModeOverride) {
+    document.documentElement.setAttribute('data-force-color-mode', colorModeOverride);
+  }
+</script>
+<!-- External style sheets -->
     <link
       rel="StyleSheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -105,6 +114,16 @@
     </div>
     <script>
       myFunction();
+    </script>
+    <input type="checkbox" id="toggle-darkmode" />
+    <label for="toggle-darkmode"><span>Toggle Light/Dark Mode</span></label>
+    <script>
+        // Check the dark-mode checkbox if
+        // - The override is set to dark
+        // - No override is set but the system prefers dark mode
+        if ((colorModeOverride == 'dark') || (!hasColorModeOverride && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.querySelector('#toggle-darkmode').checked = true;
+        }
     </script>
     <div class="wrapper row2">
       <div id="index_container" class="clear">
