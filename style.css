@@ -7,9 +7,9 @@
 	--text-color: #000;
 	--background-color: #fff;
 	--link-color: #00f;
-  --table-odd: #c0c0c0;
-  --footer: #c0c0c0;
-  --outline: #c0c0c0;
+  --table-even: #e5e2e2;
+  --footer: #aaaaaa;
+  --outline: #aaaaaa;
   --talks-background: #fef8d6;
 }
 
@@ -19,7 +19,7 @@
 		--text-color: #fff;
 		--background-color: #333;
 		--link-color: #2196f3;
-    --table-odd: #c0c0c0;
+    --table-even: #c0c0c0;
     --footer: #c0c0c0;
     --outline: #c0c0c0;
     --talks-background: #fef8d6
@@ -30,7 +30,7 @@
 	--text-color: #fff;
 	--background-color: #333;
 	--link-color: #2196f3;
-  --table-odd: #c0c0c0;
+  --table-even: #c0c0c0;
   --footer: #c0c0c0;
   --outline: #c0c0c0;
   --talks-background: #fef8d6
@@ -243,8 +243,8 @@ img.bibbase_icon {
     margin: 0 0 1rem 0;
   }
 
-  #tcv tbody tr:nth-child(odd) {
-    background: var(--table-odd);
+  #tcv tbody tr:nth-child(even) {
+    background-color: var(--table-even);
   }
 
   #tcv tbody tr td {
@@ -300,8 +300,8 @@ img.bibbase_icon {
     margin: 0 0 1rem 0;
   }
 
-  #tteach tbody tr:nth-child(odd) {
-    background: var(--table-odd);
+  #tteach tbody tr:nth-child(even) {
+    background-color: var(--table-even);
   }
 
   #tteach tbody tr td {
@@ -355,8 +355,8 @@ img.bibbase_icon {
     margin: 0 0 1rem 0;
   }
 
-  #tpresent tbody tr:nth-child(odd) {
-    background: var(--table-odd);
+  #tpresent tbody tr:nth-child(even) {
+    background-color: var(--table-even);
   }
 
   #tpresent tbody tr td {
@@ -669,21 +669,22 @@ img.bibbase_icon {
     table-layout: auto;
   }
   #tpresent tr:nth-child(even) {
+    background-color: var(--table-even);
     height: 70px;
   }
   #tteach tr:nth-child(odd) {
-    background-color: var(--table-odd);
-    height: 70px;
+        height: 70px;
   }
  
   #tpresent {
     table-layout: auto;
   }
   #tpresent tr:nth-child(even) {
+    background-color: var(--table-even);
     height: 70px;
   }
   #tpresent tr:nth-child(odd) {
-    background-color: var(--table-odd);
+    
     height: 70px;
   }
  
@@ -691,11 +692,11 @@ img.bibbase_icon {
     table-layout: auto;
   }
   #tcv tbody tr:nth-child(even) {
+    background-color: var(--table-even);
     height: 70px;
   }
   #tcv tbody tr:nth-child(odd) {
-    background-color: var(--table-odd);
-    height: 70px;
+        height: 70px;
   }
   
   /*----------------------------------------------Footer-------------------------------------*/
