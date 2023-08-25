@@ -85,7 +85,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: var(--navbar-background);
   padding: 10px;
 }
 
@@ -109,8 +109,8 @@ nav {
 }
 
 .nav-item.active {
-  background-color: red;
-  color: white;
+  background-color: var(--navbar-active-background);
+  color: var(--navbar-active-text);
 }
 
 .hamburger-menu {
