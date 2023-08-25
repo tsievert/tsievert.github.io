@@ -16,7 +16,7 @@
 /* Dark Color Scheme (System Preference) */
 @media (prefers-color-scheme: dark) {
 	:root {
-	--text-color: #fff; /* white text for dark mode */
+		--text-color: #fff; /* white text for dark mode */
 	--background-color: #222; /* dark grey background for dark mode */
 	--link-color: #0ff; /* cyan links for dark mode */
   --table-highlight: #1a1a1a; /* darker grey for table highlights */
