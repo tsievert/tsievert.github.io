@@ -48,7 +48,7 @@
 body {
   font-size: 100%;
   background-color: var(--background-color);
-  color: var(--background-color);
+  color: var(--text-color);
   font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri,
     "Microsoft Sans Serif";
   margin: 0;
@@ -398,7 +398,7 @@ img.bibbase_icon {
   }
 
   #container #col1 {
-    color: var(--background-color);
+    color: var(--text-color);
     display: block;
     float: left;
     width: 98%;
@@ -424,7 +424,7 @@ img.bibbase_icon {
   }
   #center_container #center {
     background-color: var(--background-color);
-    color: var(--outline);
+    color: var(--text-color);
     display: block;
     float: left;
     text-align: justify;
@@ -433,7 +433,7 @@ img.bibbase_icon {
   }
 
   #index_container #col_1 {
-    color: var(--background-color);
+    color: var(--text-color);
     display: block;
     float: left;
     width: 100%;
@@ -453,7 +453,7 @@ img.bibbase_icon {
   }
   #index_container #col_2 {
     background-color: var(--background-color);
-    color: var(--outline);
+    color: var(--text-color);
     display: block;
     float: left;
     margin-top: 2%;
@@ -468,7 +468,7 @@ img.bibbase_icon {
     background-color: var(--talks-background);
     border: 1px solid var(--outline);
     border-style: dashed;
-    color: var(--talks-background);
+    color: var(--text-color);
     display: block;
     float: left;
     margin-bottom: -2%;
@@ -539,7 +539,7 @@ img.bibbase_icon {
   }
   .row2 {
     background-color: var(--background-color);
-    color: var(--background-color);
+    color: var(--text-color);
   }
   .row3 {
     color: var(--background-color);
@@ -559,7 +559,7 @@ img.bibbase_icon {
   /*--Content--*/
 
   #container #col1 {
-    color: var(--background-color);
+    color: var(--text-color);
     display: block;
     float: left;
     position: -webkit-sticky;
@@ -581,7 +581,7 @@ img.bibbase_icon {
   }
   #container #col2 {
     background-color: var(--background-color);
-    color: var(--background-color);
+    color: var(--text-color);
     display: block;
     float: left;
     text-align: justify;
@@ -589,7 +589,7 @@ img.bibbase_icon {
   }
   #center_container #center {
     background-color: var(--background-color);
-    color: var(--background-color);
+    color: var(--text-color);
     display: block;
     float: left;
     text-align: justify;
@@ -600,7 +600,7 @@ img.bibbase_icon {
   /*--Content--*/
 
   #index_container #col_1 {
-    color: var(--background-color);  
+    color: var(--text-color);  
     display: block;
     float: left;
     position: -webkit-sticky;
@@ -623,7 +623,7 @@ img.bibbase_icon {
   }
   #index_container #col_2 {
     background-color: var(--background-color);
-    color: var(--background-color);
+    color: var(--text-color);
     display: block;
     float: left;
     margin-right: 2%;
@@ -635,7 +635,7 @@ img.bibbase_icon {
     background-color: var(--talks-background);
     border: 1px solid var(--outline);
     border-style: dashed;
-    color: var(--talks-background);
+    color: var(--text-color);
     display: block;
     float: left;
     margin: 2% 0 2% 0;
