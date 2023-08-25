@@ -36,6 +36,45 @@ h4 {
   font-size-adjust: 0.5;
 }
 
+/* Light Color Scheme (Default + Override) */
+:root,
+:root[data-force-color-mode="light"] {
+	color-scheme: light dark;
+	--text-color: #000;
+	--background-color: #fff;
+	--link-color: #00f;
+  --table-odd: #c0c0c0;
+  --table-even: #fff;
+  --footer: #c0c0c0;
+  --outline: #c0c0c0;
+  --talks-background: #c0c0c0;
+}
+
+/* Dark Color Scheme (System Preference) */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--text-color: #fff;
+		--background-color: #333;
+		--link-color: #2196f3;
+    --table-odd: #c0c0c0;
+    --table-even: #333;
+    --footer: #c0c0c0;
+    --outline: #c0c0c0;
+    --talks-background: #c0c0c0
+	}
+}
+/* Dark Color Scheme (Override) */
+:root[data-force-color-mode="dark"] {
+	--text-color: #fff;
+	--background-color: #333;
+	--link-color: #2196f3;
+  --table-odd: #c0c0c0;
+  --table-even: #333;
+  --footer: #c0c0c0;
+  --outline: #c0c0c0;
+  --talks-background: #c0c0c0
+}
+
 /* Experimental aspect ratio force for img  */
 img {
   aspect-ratio: attr(width) / attr(height);
@@ -149,40 +188,9 @@ a {
   outline: none;
   text-decoration: none;
 }
-a:link {
-  color: #000000;
-  text-decoration: underline;
-}
-a:visited {
-  color: #000000;
-  text-decoration: underline;
-}
-a:hover {
-  color: #5b5151;
-  text-decoration: underline;
-}
-a:active {
-  color: #5b5151;
-  text-decoration: underline;
-}
 a.talks {
   word-spacing: 0.005em;
   text-decoration: underline;
-}
-
-/*--------------------------------------------Special countdowm timer CSS----------------------------*/
-
-time_li {
-  display: inline-block;
-  font-size: 1.5em;
-  list-style-type: none;
-  padding: 1em;
-  text-transform: uppercase;
-}
-
-time_li span {
-  display: block;
-  font-size: 4.5rem;
 }
 
 /*--------------------------------------------Special Bibbase scaling----------------------------*/
@@ -236,7 +244,7 @@ img.bibbase_icon {
   }
 
   #tcv tbody tr:nth-child(odd) {
-    background: #ccc;
+    background: var(--table-odd);
   }
 
   #tcv tbody tr td {
@@ -293,7 +301,7 @@ img.bibbase_icon {
   }
 
   #tteach tbody tr:nth-child(odd) {
-    background: #ccc;
+    background: var(--table-odd);
   }
 
   #tteach tbody tr td {
@@ -348,7 +356,7 @@ img.bibbase_icon {
   }
 
   #tpresent tbody tr:nth-child(odd) {
-    background: #ccc;
+    background: var(--table-odd);
   }
 
   #tpresent tbody tr td {
@@ -384,13 +392,13 @@ img.bibbase_icon {
   }
 
   #footer1 {
-    color: #eeebe0;
+    color: var(--footer);
     padding-bottom: 5%;
     text-align: center;
   }
 
   #container #col1 {
-    color: #eeebe0;
+    color: var(--background-color);
     display: block;
     float: left;
     width: 98%;
@@ -408,15 +416,15 @@ img.bibbase_icon {
     max-width: 75%;
   }
   #container #col2 {
-    background-color: #eeebe0;
-    color: #626262;
+    background-color: var(--background-color);
+    color: var(--outline);
     display: block;
     float: left;
     width: 100%;
   }
   #center_container #center {
-    background-color: #eeebe0;
-    color: #626262;
+    background-color: var(--background-color);
+    color: var(--outline);
     display: block;
     float: left;
     text-align: justify;
@@ -425,7 +433,7 @@ img.bibbase_icon {
   }
 
   #index_container #col_1 {
-    color: #eeebe0;
+    color: var(--background-color);
     display: block;
     float: left;
     width: 100%;
@@ -444,8 +452,8 @@ img.bibbase_icon {
     max-width: 75%;
   }
   #index_container #col_2 {
-    background-color: #eeebe0;
-    color: #626262;
+    background-color: var(--background-color);
+    color: var(--outline);
     display: block;
     float: left;
     margin-top: 2%;
@@ -457,10 +465,10 @@ img.bibbase_icon {
     display: none;
   }
   #index_container #col_mobile_talks {
-    background-color: #fef8d6;
-    border: 1px solid #6c6e72;
+    background-color: var(--talks-background);
+    border: 1px solid var(--outline);
     border-style: dashed;
-    color: #626262;
+    color: var(--talks-background);
     display: block;
     float: left;
     margin-bottom: -2%;
@@ -530,7 +538,7 @@ img.bibbase_icon {
     top: 0;
   }
   .row2 {
-    background-color: #eeebe0;
+    background-color: var(--background-color);
     color: #626262;
   }
   .row3 {
@@ -702,7 +710,7 @@ img.bibbase_icon {
   /*----------------------------------------------Footer-------------------------------------*/
 
   #footer #footer1 {
-    background-color: #6c6e72;
+    background-color: var(--footer);
     padding-top: 0.5%;
     text-align: center;
   }
