@@ -7,7 +7,7 @@
 	--text-color: #000;
 	--background-color: #fff;
 	--link-color: #00f;
-  --table-even: #e5e2e2;
+  --table-highlight: #e5e2e2;
   --footer: #aaaaaa;
   --outline: #aaaaaa;
   --talks-background: #fef8d6;
@@ -19,7 +19,7 @@
 		--text-color: #fff;
 		--background-color: #333;
 		--link-color: #2196f3;
-    --table-even: #c0c0c0;
+    --table-highlight: #c0c0c0;
     --footer: #c0c0c0;
     --outline: #c0c0c0;
     --talks-background: #fef8d6
@@ -30,7 +30,7 @@
 	--text-color: #fff;
 	--background-color: #333;
 	--link-color: #2196f3;
-  --table-even: #c0c0c0;
+  --table-highlight: #c0c0c0;
   --footer: #c0c0c0;
   --outline: #c0c0c0;
   --talks-background: #fef8d6
@@ -237,20 +237,20 @@ img.bibbase_icon {
     position: absolute;
     top: -9999px;
     left: -9999px;
-  }
+      }
 
   #tcv tbody tr {
     margin: 0 0 1rem 0;
   }
 
   #tcv tbody tr:nth-child(even) {
-    background-color: var(--table-even);
+    background-color: var(--table-highlight);
   }
 
   #tcv tbody tr td {
     /* Behave  like a "row" */
     border: none;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--outline);
     position: relative;
     padding-left: 50%;
   }
@@ -264,6 +264,7 @@ img.bibbase_icon {
     width: 45%;
     padding-right: 10px;
     white-space: nowrap;
+    background-color: var(--table-highlight);
   }
 
   #tcv .details td:nth-of-type(1):before {
@@ -301,13 +302,13 @@ img.bibbase_icon {
   }
 
   #tteach tbody tr:nth-child(even) {
-    background-color: var(--table-even);
+    background-color: var(--table-high);
   }
 
   #tteach tbody tr td {
     /* Behave  like a "row" */
     border: none;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--outline);
     position: relative;
     padding-left: 50%;
   }
@@ -321,6 +322,7 @@ img.bibbase_icon {
     width: 45%;
     padding-right: 10px;
     white-space: nowrap;
+    background-color: var(--table-highlight);
   }
 
   #tteach .details td:nth-of-type(1):before {
@@ -356,13 +358,13 @@ img.bibbase_icon {
   }
 
   #tpresent tbody tr:nth-child(even) {
-    background-color: var(--table-even);
+    background-color: var(--table-highlight);
   }
 
   #tpresent tbody tr td {
     /* Behave  like a "row" */
     border: none;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--outline);
     position: relative;
     padding-left: 50%;
   }
@@ -376,6 +378,7 @@ img.bibbase_icon {
     width: 45%;
     padding-right: 10px;
     white-space: nowrap;
+    background-color: var(--table-highlight);
   }
 
   #tpresent .details td:nth-of-type(1):before {
@@ -668,8 +671,11 @@ img.bibbase_icon {
   #tpresent {
     table-layout: auto;
   }
+  #tpresent thead {
+    background-color: var(--table-highlight);
+  }
   #tpresent tr:nth-child(even) {
-    background-color: var(--table-even);
+    background-color: var(--table-highlight);
     height: 70px;
   }
   #tteach tr:nth-child(odd) {
@@ -680,7 +686,7 @@ img.bibbase_icon {
     table-layout: auto;
   }
   #tpresent tr:nth-child(even) {
-    background-color: var(--table-even);
+    background-color: var(--table-highlight);
     height: 70px;
   }
   #tpresent tr:nth-child(odd) {
@@ -692,7 +698,7 @@ img.bibbase_icon {
     table-layout: auto;
   }
   #tcv tbody tr:nth-child(even) {
-    background-color: var(--table-even);
+    background-color: var(--table-highlight);
     height: 70px;
   }
   #tcv tbody tr:nth-child(odd) {
