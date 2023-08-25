@@ -81,55 +81,6 @@
   content: "🌙";
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--navbar-background);
-  padding: 10px;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: var(--navbar-text);
-  margin-right: 10px;
-}
-
-.navbar a.active {
-  color: var(--navbar-hover-background);
-  font-weight: bold;
-}
-
-.navbar a:hover {
-  color: var(--navbar-hover-background);
-}
-
-.toggle-button {
-  display: none;
-}
-
-@media (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .navbar a {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  .toggle-button {
-    display: block;
-  }
-  
-  .navbar.active {
-    display: flex;
-    padding: 10px;
-  }
-}
-
-
-
 #header,
 #navbar,
 #index_container,

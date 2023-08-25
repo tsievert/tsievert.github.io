@@ -91,18 +91,20 @@
 <!-- External style sheets -->
 
 <link rel="StyleSheet" href="style.css" type="text/css" media="all" />
+<link rel="StyleSheet" href="topnav.css" type="text/css" media="all" />
 <link rel="shortcut icon" href="favicon.ico" />
 <script src="dynamic_content.js"></script>
-
+<script src="responsive_nav.js"></script>
 </head>
 
   <body>
-    <div class="navbar">
-      <a href="#" class="active">Home</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+    <div class="topnav" id="myTopnav">
+      <div data-include="navbar.html"></div>
     </div>
+    <script>
+      myFunction();
+    </script>
+    <div>
       <input type="checkbox" id="toggle-darkmode" />
       <label for="toggle-darkmode"><span>Toggle Light/Dark Mode</span></label>
       <script>
