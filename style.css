@@ -81,6 +81,55 @@
   content: "🌙";
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+}
+
+.navbar a.active {
+  color: red;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #999;
+}
+
+.toggle-button {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .navbar a {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .toggle-button {
+    display: block;
+  }
+  
+  .navbar.active {
+    display: flex;
+    padding: 10px;
+  }
+}
+
+
+
 #header,
 #navbar,
 #index_container,

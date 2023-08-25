@@ -67,18 +67,20 @@
     <!-- META Tags END -->
 
     <link rel="StyleSheet" href="style.css" type="text/css" media="all" />
-    <link rel="StyleSheet" href="topnav.css" type="text/css" media="all" />
     <link rel="shortcut icon" href="favicon.ico" />
     <script src="dynamic_content.js"></script>
-    <script src="responsive_nav.js"></script>
-  </head>
+    <script src="responsive_nav.js" defer></script>
+     </head>
   <body>
-    <div class="topnav" id="myTopnav">
-      <div data-include="navbar.html"></div>
+    <button class="toggle-button">&#9776;</button>
+  
+    <div class="navbar">
+      <a href="">Overview</a>
+      <a href="cv">CV</a>
+      <a href="publications/" class="active">Publications</a>
+      <a href="presentations/">Talks & Posters</a>
+      <a href="teaching/">Teaching</a>
     </div>
-    <script>
-      myFunction();
-    </script>
     <div class="wrapper row2">
       <div id="container" class="clear">
         <div id="col1">
