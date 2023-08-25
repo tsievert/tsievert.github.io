@@ -1,40 +1,4 @@
 /*-----------------------Some shared general settings between mobile and desktop-------------------*/
-#header,
-#navbar,
-#index_container,
-#container,
-#footer {
-  display: block;
-  width: 100%;
-}
-
-body {
-  font-size: 100%;
-  background-color: #6c6e72;
-  color: #626262;
-  font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri,
-    "Microsoft Sans Serif";
-  margin: 0;
-  overflow-x: hidden;
-  padding: 0;
-}
-
-body,
-caption,
-th,
-td,
-input,
-textarea,
-select,
-option,
-legend,
-fieldset,
-h1,
-h2,
-h3,
-h4 {
-  font-size-adjust: 0.5;
-}
 
 /* Light Color Scheme (Default + Override) */
 :root,
@@ -71,6 +35,45 @@ h4 {
   --outline: #c0c0c0;
   --talks-background: #c0c0c0
 }
+
+#header,
+#navbar,
+#index_container,
+#container,
+#footer {
+  display: block;
+  width: 100%;
+}
+
+body {
+  font-size: 100%;
+  background-color: var(--background-color);
+  color: var(--background-color);
+  font-family: Verdana, "Trebuchet MS", Tahoma, Geneva, Cambria, Calibri,
+    "Microsoft Sans Serif";
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+body,
+caption,
+th,
+td,
+input,
+textarea,
+select,
+option,
+legend,
+fieldset,
+h1,
+h2,
+h3,
+h4 {
+  font-size-adjust: 0.5;
+}
+
+
 
 /* Experimental aspect ratio force for img  */
 img {
