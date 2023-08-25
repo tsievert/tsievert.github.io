@@ -44,7 +44,6 @@ h4 {
 	--background-color: #fff;
 	--link-color: #00f;
   --table-odd: #c0c0c0;
-  --table-even: #fff;
   --footer: #c0c0c0;
   --outline: #c0c0c0;
   --talks-background: #c0c0c0;
@@ -57,7 +56,6 @@ h4 {
 		--background-color: #333;
 		--link-color: #2196f3;
     --table-odd: #c0c0c0;
-    --table-even: #333;
     --footer: #c0c0c0;
     --outline: #c0c0c0;
     --talks-background: #c0c0c0
@@ -69,7 +67,6 @@ h4 {
 	--background-color: #333;
 	--link-color: #2196f3;
   --table-odd: #c0c0c0;
-  --table-even: #333;
   --footer: #c0c0c0;
   --outline: #c0c0c0;
   --talks-background: #c0c0c0
