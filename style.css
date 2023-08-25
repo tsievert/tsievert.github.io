@@ -81,50 +81,54 @@
   content: "🌙";
 }
 
-.navbar {
+nav {
   display: flex;
   justify-content: space-between;
-  background-color: var(--navbar-background);
+  align-items: center;
+}
+
+nav a {
   padding: 10px;
-}
-
-.navbar a {
   text-decoration: none;
-  color: var(--navbar-text);
-  margin-right: 10px;
+  color: #333;
 }
 
-.navbar a.active {
-  color: var(--navbar-hover-background);
-  font-weight: bold;
+.nav-item.active {
+  background-color: red;
+  color: white;
 }
 
-.navbar a:hover {
-  color: var(--navbar-hover-background);
-}
-
-.toggle-button {
+.hamburger-menu {
   display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hamburger-menu .line {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #333;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 600px) {
-  .navbar {
+  nav {
     flex-direction: column;
     align-items: flex-start;
   }
-  
-  .navbar a {
-    display: block;
-    margin-bottom: 5px;
+
+  nav a {
+    margin-bottom: 10px;
   }
-  
-  .toggle-button {
+
+  .hamburger-menu {
     display: block;
   }
-  
-  .navbar.active {
-    display: flex;
-    padding: 10px;
+
+  nav.show {
+    display: block;
   }
 }
 
