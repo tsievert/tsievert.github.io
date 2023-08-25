@@ -17,41 +17,32 @@
   --navbar-active-text: white;
   --navbar-hover-background: #ddd;
   --navbar-hover-text: black;
+
+
+
 }
 
 /* Dark Color Scheme (System Preference) */
 @media (prefers-color-scheme: dark) {
 	:root {
-		--text-color: #fff; /* white text for dark mode */
-	--background-color: #222; /* dark grey background for dark mode */
-	--link-color: #0ff; /* cyan links for dark mode */
-  --table-highlight: #1a1a1a; /* darker grey for table highlights */
-  --footer: #555555; /* medium grey for footer */
-  --outline: #555555; /* medium grey for outlines */
-  --talks-background: #1a1a1a; /* darker grey for talks background */
-  --navbar-background: #333; /* dark grey for navbar background */
-  --navbar-text: #ddd; /* light grey for navbar text */
-  --navbar-active-background: #b2ff59; /* light green for active navbar item background */
-  --navbar-active-text: #000; /* black text for active navbar item */
-  --navbar-hover-background: #444; /* darker grey for navbar hover background */
-  --navbar-hover-text: #fff; /* white text for navbar hover */
+		--text-color: #fff;
+		--background-color: #333;
+		--link-color: #2196f3;
+    --table-highlight: #c0c0c0;
+    --footer: #c0c0c0;
+    --outline: #c0c0c0;
+    --talks-background: #fef8d6
 	}
 }
 /* Dark Color Scheme (Override) */
 :root[data-force-color-mode="dark"] {
-	--text-color: #fff; /* white text for dark mode */
-	--background-color: #222; /* dark grey background for dark mode */
-	--link-color: #0ff; /* cyan links for dark mode */
-  --table-highlight: #1a1a1a; /* darker grey for table highlights */
-  --footer: #555555; /* medium grey for footer */
-  --outline: #555555; /* medium grey for outlines */
-  --talks-background: #1a1a1a; /* darker grey for talks background */
-  --navbar-background: #333; /* dark grey for navbar background */
-  --navbar-text: #ddd; /* light grey for navbar text */
-  --navbar-active-background: #b2ff59; /* light green for active navbar item background */
-  --navbar-active-text: #000; /* black text for active navbar item */
-  --navbar-hover-background: #444; /* darker grey for navbar hover background */
-  --navbar-hover-text: #fff; /* white text for navbar hover */
+	--text-color: #fff;
+	--background-color: #333;
+	--link-color: #2196f3;
+  --table-highlight: #c0c0c0;
+  --footer: #c0c0c0;
+  --outline: #c0c0c0;
+  --talks-background: #fef8d6
 }
 
 /* Only show reset button if override is set */
