@@ -36,6 +36,28 @@
   --talks-background: #fef8d6
 }
 
+const setColorMode = (mode) => {
+	// Mode was given
+	if (mode) {
+		// Update data-* attr on html
+		document.documentElement.setAttribute('data-force-color-mode', mode);
+		// Persist in local storage
+		window.localStorage.setItem('color-mode', mode);
+		// Make sure the checkbox is up-to-date
+		document.querySelector('#toggle-darkmode').checked = (mode === 'dark');
+	}
+	
+	// No mode given (e.g. reset)
+	else {
+		// Remove data-* attr from html
+		document.documentElement.removeAttribute('data-force-color-mode');
+		// Remove entry from local storage
+		window.localStorage.removeItem('color-mode');
+		// Make sure the checkbox is up-to-date, matching the system preferences
+		document.querySelector('#toggle-darkmode').checked = window.matchMedia('(prefers-color-scheme: dark)').matches;
+	}
+}
+
 #header,
 #navbar,
 #index_container,
