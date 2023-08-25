@@ -10,7 +10,7 @@
   --table-odd: #c0c0c0;
   --footer: #c0c0c0;
   --outline: #c0c0c0;
-  --talks-background: #c0c0c0;
+  --talks-background: #fef8d6;
 }
 
 /* Dark Color Scheme (System Preference) */
@@ -22,7 +22,7 @@
     --table-odd: #c0c0c0;
     --footer: #c0c0c0;
     --outline: #c0c0c0;
-    --talks-background: #c0c0c0
+    --talks-background: #fef8d6
 	}
 }
 /* Dark Color Scheme (Override) */
@@ -33,7 +33,7 @@
   --table-odd: #c0c0c0;
   --footer: #c0c0c0;
   --outline: #c0c0c0;
-  --talks-background: #c0c0c0
+  --talks-background: #fef8d6
 }
 
 #header,
@@ -539,10 +539,10 @@ img.bibbase_icon {
   }
   .row2 {
     background-color: var(--background-color);
-    color: #626262;
+    color: var(--background-color);
   }
   .row3 {
-    color: #eeebe0;
+    color: var(--background-color);
   }
 
   /*----------------------------------------------Header-------------------------------------*/
@@ -559,7 +559,7 @@ img.bibbase_icon {
   /*--Content--*/
 
   #container #col1 {
-    color: #6c6e72;
+    color: var(--background-color);
     display: block;
     float: left;
     position: -webkit-sticky;
@@ -581,7 +581,7 @@ img.bibbase_icon {
   }
   #container #col2 {
     background-color: var(--background-color);
-    color: #626262;
+    color: var(--background-color);
     display: block;
     float: left;
     text-align: justify;
@@ -589,7 +589,7 @@ img.bibbase_icon {
   }
   #center_container #center {
     background-color: var(--background-color);
-    color: #626262;
+    color: var(--background-color);
     display: block;
     float: left;
     text-align: justify;
@@ -600,7 +600,7 @@ img.bibbase_icon {
   /*--Content--*/
 
   #index_container #col_1 {
-    color: #6c6e72;  
+    color: var(--background-color);  
     display: block;
     float: left;
     position: -webkit-sticky;
@@ -623,7 +623,7 @@ img.bibbase_icon {
   }
   #index_container #col_2 {
     background-color: var(--background-color);
-    color: #626262;
+    color: var(--background-color);
     display: block;
     float: left;
     margin-right: 2%;
@@ -632,10 +632,10 @@ img.bibbase_icon {
     width: 58%;
   }
   #index_container #col_3 {
-    background-color: #fef8d6;
-    border: 1px solid #6c6e72;
+    background-color: var(--talks-background);
+    border: 1px solid var(--outline);
     border-style: dashed;
-    color: #626262;
+    color: var(--talks-background);
     display: block;
     float: left;
     margin: 2% 0 2% 0;
@@ -661,7 +661,7 @@ img.bibbase_icon {
   }
 
   td, th {
-    border: 1px solid #e4e5e7;
+    border: 1px solid var(--outline);
     padding: 10px;
       }
 
@@ -675,10 +675,7 @@ img.bibbase_icon {
     background-color: var(--table-odd);
     height: 70px;
   }
-  #tteach tr:hover {
-    background-color: #f7f7f7;
-  }
-
+ 
   #tpresent {
     table-layout: auto;
   }
@@ -689,10 +686,7 @@ img.bibbase_icon {
     background-color: var(--table-odd);
     height: 70px;
   }
-  #tpresent tr:hover {
-    background-color: #f7f7f7;
-  }
-
+ 
   #tcv {
     table-layout: auto;
   }
@@ -703,10 +697,7 @@ img.bibbase_icon {
     background-color: var(--table-odd);
     height: 70px;
   }
-  #tcv tbody tr:hover {
-    background-color: #f7f7f7;
-  }
-
+  
   /*----------------------------------------------Footer-------------------------------------*/
 
   #footer #footer1 {
