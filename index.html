@@ -115,6 +115,18 @@
     <script>
       myFunction();
     </script>
+    <div>
+      <input type="checkbox" id="toggle-darkmode" />
+      <label for="toggle-darkmode"><span>Toggle Light/Dark Mode</span></label>
+      <script>
+        // Check the dark-mode checkbox if
+        // - The override is set to dark
+        // - No override is set but the system prefers dark mode
+        if ((colorModeOverride == 'dark') || (!hasColorModeOverride && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.querySelector('#toggle-darkmode').checked = true;
+        }
+      </script>
+    </div>
     <div class="wrapper row2">
       <div id="index_container" class="clear">
         <div id="col_1">
@@ -219,7 +231,7 @@
           <h2>Contact</h2>
           <p><b>Thorbjörn Sievert</b></p>
           <p>thorbjoern.sievert[at]gmx.net</p>
-          <h4>Feel free to follow me on</h4>
+          <h3>Feel free to follow me on</h3>
           <p>
             <i class="ai ai-google-scholar-square ai-2x"></i>
             <a
