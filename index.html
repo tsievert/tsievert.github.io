@@ -79,7 +79,7 @@
     <meta name="og:site_name" content="tsievert.com" />
     <meta name="og:locale" content="en_GB" />
     <meta name="og:type" content="website" />
-    
+
 <!-- Darkmode toogle -->
 <script>
   // Check if there's any override. If so, let the markup know by setting an attribute on the <html> element
@@ -89,23 +89,26 @@
     document.documentElement.setAttribute('data-force-color-mode', colorModeOverride);
   }
 </script>
-<!-- External style sheets -->
 
+<!-- Style sheets -->
 <link rel="StyleSheet" href="style.css" type="text/css" media="all" />
 <link rel="StyleSheet" href="topnav.css" type="text/css" media="all" />
 <link rel="shortcut icon" href="favicon.ico" />
 <script src="dynamic_content.js"></script>
 <script src="responsive_nav.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
   <body>
     <div class="topnav" id="myTopnav">
-      <div data-include="navbar.html"></div>
+      <a href="">Overview</a>
+	    <a href="cv" class="active">CV</a>
+	    <a href="publications">Publications</a>
+	    <a href="presentations" class="talks">Talks & Posters</a>
+	    <a href="teaching">Teaching</a>
+	    <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a> 
     </div>
-    <script>
-      myFunction();
-    </script>
-    <div>
+        <div>
       <input type="checkbox" id="toggle-darkmode" />
       <label for="toggle-darkmode"><span>Toggle Light/Dark Mode</span></label>
       <script>
@@ -250,5 +253,8 @@
       IncludeHTML();
     </script>
     <script src="toggle-darkmode.js"></script>
+    <script>
+      myFunction();
+    </script>
   </body>
 </html>
