@@ -225,6 +225,9 @@ a.talks {
   word-spacing: 0.005em;
   text-decoration: underline;
 }
+a {
+	color: var(--link-color);
+}
 
 /*--------------------------------------------Special Bibbase scaling----------------------------*/
 
