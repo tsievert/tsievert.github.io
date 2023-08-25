@@ -83,14 +83,10 @@
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   background-color: #f1f1f1;
   padding: 10px;
-}
-
-.navbar-header {
-  display: flex;
 }
 
 .nav-links {
@@ -129,6 +125,13 @@ nav {
 }
 
 @media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
   .nav-links {
     display: none;
     flex-direction: column;
@@ -138,12 +141,7 @@ nav {
   .nav-links.show {
     display: flex;
   }
-
-  .hamburger-menu {
-    display: block;
-  }
 }
-
 
 
 
