@@ -13,7 +13,11 @@
   --talks-background: #fef8d6;
   --navbar-background: #6c6e72;
   --navbar-text: #f2f2f2;
-  --navbar-active: #4caf50;
+  --navbar-active-background: #4caf50;
+  --navbar-active-text: white;
+  --navbar-hover-background: #ddd;
+  --navbar-hover-text: black;
+
 
 
 }
@@ -91,13 +95,13 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: var(--navbar-hover-background);
+  color: var(--navbar-hover-text);
 }
 
 .topnav a.active {
-  background-color: var(--navbar-active);
-  color: white;
+  background-color: var(--navbar-active-background);
+  color: var(--navbar-active-text);
 }
 
 .topnav .icon {
