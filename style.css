@@ -84,23 +84,23 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  background-color: #f8f8f8;
+  background-color: var(--navbar-background);
   padding: 10px;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #333;
+  color: var(--navbar-text);
   margin-right: 10px;
 }
 
 .navbar a.active {
-  color: red;
+  color: var(--navbar-hover-background);
   font-weight: bold;
 }
 
 .navbar a:hover {
-  color: #999;
+  color: var(--navbar-hover-background);
 }
 
 .toggle-button {
