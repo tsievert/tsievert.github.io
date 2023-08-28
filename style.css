@@ -8,8 +8,8 @@
 	--background-color: #fff;
 	--link-color: #00f;
   --table-highlight: #e5e2e2;
-  --footer: #aaaaaa;
-  --outline: #aaaaaa;
+  --footer: #aaa;
+  --outline: #aaa;
   --talks-background: #fef8d6;
 }
 
@@ -20,8 +20,8 @@
 	--background-color: #222; /* dark grey background for dark mode */
 	--link-color: #0ff; /* cyan links for dark mode */
   --table-highlight: #1a1a1a; /* darker grey for table highlights */
-  --footer: #555555; /* medium grey for footer */
-  --outline: #555555; /* medium grey for outlines */
+  --footer: #555; /* medium grey for footer */
+  --outline: #555; /* medium grey for outlines */
   --talks-background: #1a1a1a; /* darker grey for talks background */
   --navbar-background: #333; /* dark grey for navbar background */
   --navbar-text: #ddd; /* light grey for navbar text */
@@ -37,8 +37,8 @@
 	--background-color: #222; /* dark grey background for dark mode */
 	--link-color: #0ff; /* cyan links for dark mode */
   --table-highlight: #1a1a1a; /* darker grey for table highlights */
-  --footer: #555555; /* medium grey for footer */
-  --outline: #555555; /* medium grey for outlines */
+  --footer: #555; /* medium grey for footer */
+  --outline: #555; /* medium grey for outlines */
   --talks-background: #1a1a1a; /* darker grey for talks background */
   --navbar-background: #333; /* dark grey for navbar background */
   --navbar-text: #ddd; /* light grey for navbar text */
@@ -117,14 +117,6 @@ h3,
 h4 {
   font-size-adjust: 0.5;
 }
-
-
-
-/* Experimental aspect ratio force for img  */
-img {
-  aspect-ratio: attr(width) / attr(height);
-}
-/* End experiment  */
 
 #page {
   font-size: 1em;
