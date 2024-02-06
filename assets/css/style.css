@@ -268,7 +268,7 @@ Main Page
 	box-sizing: content-box;
 }
 
-.contentarea section {
+.contentarea section.publications {
 	width:100%;
 }
 
