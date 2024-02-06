@@ -256,6 +256,7 @@ Main Page
 }
 
 .contentarea {
+	width:100%;
 	max-width: var(--content-width);
 	display: flex;
 	flex-direction: column;
