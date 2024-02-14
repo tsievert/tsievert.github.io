@@ -249,6 +249,10 @@ darkmode
 	color: #8bc48b !important;
 }
 
+.darkmode .bibbase img {
+	filter: invert(100%);
+}
+
 /***********************\
 Main Page
 \***********************/
