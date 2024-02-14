@@ -351,9 +351,9 @@ Main Page
 }
 
 .title {
+	margin-top: 6rem;
 	width: 100%;
 	text-align: start;
-	margin-top: 6rem;
 }
 
 /*****************\
@@ -811,13 +811,13 @@ aside {
 	gap: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 	.hamburger {
 		display: none;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 	.close_hamburger {
 		display: block;
 	}
@@ -872,6 +872,16 @@ aside {
 		top: 3px;
 		position: relative;
 	}
+
+
+	.title {
+		margin-top: 2rem;
+	}
+
+	.listed_items {
+		margin-bottom: 20px;
+	}
+
 }
 
 @media (max-width: 440px) {
