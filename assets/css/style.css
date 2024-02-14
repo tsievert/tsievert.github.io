@@ -274,7 +274,7 @@ Main Page
 	position: relative;
 	margin-inline: auto;
 	padding: 4%;
-	box-sizing: content-box;
+	/*box-sizing: content-box;*/
 }
 
 .contentarea section.publications {
