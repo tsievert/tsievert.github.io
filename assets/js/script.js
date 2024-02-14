@@ -49,6 +49,7 @@ smoothScroll();
 
 
 
+
 function toggleSideNav() {
 	const hamburger = document.getElementById("hamburger");
 	const sideNav = document.querySelector("ul.mainnav");
