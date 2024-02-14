@@ -882,7 +882,8 @@ aside {
 		margin-bottom: 20px;
 	}
 
-	.bibbase_group_whole {
+	.bibbase_group_whole,
+	.activityList {
 		flex-direction: column;
 
 	}
@@ -902,6 +903,10 @@ aside {
 
 	.bibbase_group {
 		margin-bottom:20px;
+	}
+
+	.single_item {
+		padding-left:60px;
 	}
 
 }
