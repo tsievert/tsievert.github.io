@@ -249,7 +249,7 @@ darkmode
 	color: #8bc48b !important;
 }
 
-.darkmode .bibbase img {
+.darkmode #bibbase img {
 	filter: invert(100%);
 }
 
