@@ -736,7 +736,7 @@ aside {
 	top: 15px;
 	z-index: 99;
 
-	mask-image: url(".../icons/hamburger.svg");
+	mask-image: url("../icons/hamburger.svg");
 	-webkit-mask-size: contain;
 	mask-size: contain;
 
@@ -775,7 +775,7 @@ aside {
 	height: 40px;
 	background-color: var(--white);
 
-	mask-image: url(".../icons/hamburger_closed.svg");
+	mask-image: url("../icons/hamburger_closed.svg");
 	-webkit-mask-size: contain;
 	mask-size: contain;
 
