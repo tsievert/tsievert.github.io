@@ -4,12 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thorbjörn Sievert: Education</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
-    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
-   
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+    <script src="/assets/js/script.js"></script>
 
 
     <!-- Copyright (c) 2000-2023 etracker GmbH. All rights reserved. -->
@@ -74,49 +72,30 @@
 
 
 </head>
-
+<header>
+    <ul class="mainnav">
+     <li class="close_hamburger"></li>
+     <li><a href="/">Education</a></li>
+     <li><a href="/publications.html">Publications</a></li>
+     <li><a href="/talks-and-posters.html">Talks & Posters</a></li>
+     <li><a href="/teaching.html">Teaching</a></li>
+     <li><a href="#contact">Contact</a></li>
+     <label class="switch" name="darkmode switch"><input type="checkbox" name="darkmode switch" id="darkmodeSwitch"><span class="slider round"></span></label>
+ 
+    </ul>
+    <div id="hamburger" class="hamburger"></div>
+ <aside id="sidenav" class="hidden">
+     </aside>
+ </header>
 <body>
-
-    <script type="text/javascript">
-        const documentBody = document.querySelector("body");
-
-function getDarkmodeStatus () {
-	
-	let darkmodeStatus = Cookies.get('darkmode')
-	if(darkmodeStatus == "off") {
-		documentBody.classList.remove('darkmode')
-	}else{
-		documentBody.classList.add('darkmode')
-	}
-	}
-	
-	getDarkmodeStatus();
-</script>
-
-    <header>
-        <ul class="mainnav">
-         <li class="close_hamburger"></li>
-         <li><a href="/">Education</a></li>
-         <li><a href="./publications.html">Publications</a></li>
-         <li><a href="./talks-and-posters.html">Talks & Posters</a></li>
-         <li><a href="./teaching.html">Teaching</a></li>
-         <li><a href="#contact">Contact</a></li>
-         <label class="switch" name="darkmode switch" for="darkmodeSwitch"><input type="checkbox" name="darkmode switch" id="darkmodeSwitch"><span class="slider round"></span></label>
-     
-        </ul>
-        <div id="hamburger" class="hamburger"></div>
-     <aside id="sidenav" class="hidden">
-         </aside>
-     </header>
-
     <div class="contentarea">
     <article class="profile flex">
         <section class="left image-container">
-            <img class="flex-item" id="profile_pic" src="./assets/img/profile.jpg" alt="Thorbjörn Sievert">
+            <img class="flex-item" id="profile_pic" src="/assets/img/profile.jpg" alt="Thorbjörn Sievert">
         </section>
         <section class="profile_details flex-item right">
             <div class="profile_details_header">
-        <img id="profile_pic_2" src="./assets/img/profile.jpg" alt="Thorbjörn Sievert">    
+        <img id="profile_pic_2" src="/assets/img/profile.jpg" alt="Thorbjörn Sievert">    
         <div class="name-profession">
             <h1>Thorbjörn Sievert</h1>
             <p class="uppercase">PhD, University of Jyväskylä, Predator-Prey Interactions, Behavioral Ecology,
@@ -132,7 +111,7 @@ function getDarkmodeStatus () {
                     <li class="socialmedia-btn"><a href="https:/www.webofscience.com/wos/author/record/1014967" target="_blank"><img src="./assets/icons/webofscience.svg" alt="Web of Science" type="image/svg+xml"></a></li>
                     <li class="socialmedia-btn"><a href="https:/www.semanticscholar.org/author/Thorbj%C3%B6rn-Sievert/47051834" target="_blank"><img src="./assets/icons/semanticscholar_white.svg" alt="Semantic Scholar" type="image/svg+xml"></a></li>
                 </ul>
-                <a class="uppercase cta" href="./assets/pdf/cv.pdf" target="_blank"><b>Download CV</b></a>
+                <a class="uppercase cta" href="/assets/pdf/cv.pdf" target="_blank"><b>Download CV</b></a>
                 
                 </div>
     </div>
@@ -216,7 +195,7 @@ function getDarkmodeStatus () {
                     </div>
                 </div>
     
-                <a class="uppercase cta" href="./assets/pdf/cv.pdf" target="_blank"><b>Download CV</b></a>
+                <a class="uppercase cta" href="/assets/pdf/cv.pdf" target="_blank"><b>Download CV</b></a>
             </section>
     
     </article>
@@ -224,6 +203,8 @@ function getDarkmodeStatus () {
 </div>
 
     
+        
+        <script type="text/javascript" src="/assets/js/script.js"></script>
 </body>
 <footer>
     <div class="footer-content">

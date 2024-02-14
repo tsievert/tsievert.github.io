@@ -1,35 +1,11 @@
-
-
-
-
-
-window.addEventListener("DOMContentLoaded", (event) => {
-
-const darkmodeSwitch = document.getElementById("darkmodeSwitch");
-
-
 function toggleDarkMode() {
-	
-
-
-	darkmodeSwitch.addEventListener("change", function () {
-
-		if(documentBody.classList.contains('darkmode')){
-			documentBody.classList.remove('darkmode');
-			console.log("darkmode off");
-			Cookies.set('darkmode', 'off', {expires: 7, secure: true });
-			console.log("darkmode-cookie set to false");
-		}else{
-			documentBody.classList.add('darkmode');
-			console.log("darkmode on");
-			Cookies.set('darkmode', 'on', {expires: 7, secure: true });
-			console.log("darkmode-cookie set to true");
-	}
-		
-		
+	const darkmodeSwitch = document.getElementById("darkmodeSwitch");
+	const body = document.querySelector("body");
+	darkmodeSwitch.addEventListener("click", function () {
+		body.classList.toggle("darkmode");
+		console.log("darkmode switched");
 	});
 }
-
 
 toggleDarkMode();
 
@@ -63,5 +39,4 @@ function toggleSideNav() {
 	 });
 }
 
-
-});
+toggleSideNav();

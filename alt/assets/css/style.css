@@ -22,7 +22,7 @@
 	font-family: "Lato";
 	font-style: normal;
 	font-weight: 400;
-	src: url("../fonts/lato-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	src: url("/assets/fonts/lato-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* lato-700 - latin */
 @font-face {
@@ -30,7 +30,7 @@
 	font-family: "Lato";
 	font-style: normal;
 	font-weight: 700;
-	src: url("../fonts/lato-v24-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	src: url("/assets/fonts/lato-v24-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* lato-900 - latin */
 @font-face {
@@ -38,7 +38,7 @@
 	font-family: "Lato";
 	font-style: normal;
 	font-weight: 900;
-	src: url("../fonts/lato-v24-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+	src: url("/assets/fonts/lato-v24-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 html {
@@ -195,20 +195,15 @@ dark mode switch
 	transition: 0.4s;
 }
 
-/*input:checked + .slider
-{
+input:checked + .slider {
 	background-color: var(--white);
 }
-*/
-
-/*
 
 input:focus + .slider {
 	box-shadow: 0 0 1px var(--white);
 }
-*/
 
-body.darkmode .slider:before {
+input:checked + .slider:before {
 	-webkit-transform: translateX(26px);
 	-ms-transform: translateX(26px);
 	transform: translateX(26px);
@@ -550,8 +545,8 @@ Talks & Posters
 \*****************/
 
 .listed_items.poster_items .single_item::before {
-	-webkit-mask-image: url(".../icons/icon-billboard.svg");
-	mask-image: url(".../icons/icon-billboard.svg");
+	-webkit-mask-image: url("../icons/icon-billboard.svg");
+	mask-image: url("../icons/icon-billboard.svg");
 }
 
 /*****************\
@@ -559,8 +554,8 @@ Teaching
 \*****************/
 
 .listed_items.teaching_items .single_item::before {
-	-webkit-mask-image: url(".../icons/icon-graduate.svg");
-	mask-image: url(".../icons/icon-graduate.svg");
+	-webkit-mask-image: url("../icons/icon-graduate.svg");
+	mask-image: url("../icons/icon-graduate.svg");
 }
 
 /*****************\
@@ -639,13 +634,13 @@ section.datasets .bibbase_paper:before {
 }
 
 .publications .bibbase_paper:before {
-	-webkit-mask-image: url(".../icons/icon-book.svg");
-	mask-image: url(".../icons/icon-book.svg");
+	-webkit-mask-image: url("../icons/icon-book.svg");
+	mask-image: url("../icons/icon-book.svg");
 }
 
 .datasets .bibbase_paper:before {
-	-webkit-mask-image: url(".../icons/icon-folder.svg");
-	mask-image: url(".../icons/icon-folder.svg");
+	-webkit-mask-image: url("../icons/icon-folder.svg");
+	mask-image: url("../icons/icon-folder.svg");
 }
 
 .bibbase_group_body {
@@ -731,7 +726,7 @@ aside {
 	top: 15px;
 	z-index: 99;
 
-	mask-image: url(".../icons/hamburger.svg");
+	mask-image: url("../icons/hamburger.svg");
 	-webkit-mask-size: contain;
 	mask-size: contain;
 
@@ -770,7 +765,7 @@ aside {
 	height: 40px;
 	background-color: var(--white);
 
-	mask-image: url(".../icons/hamburger_closed.svg");
+	mask-image: url("../icons/hamburger_closed.svg");
 	-webkit-mask-size: contain;
 	mask-size: contain;
 
