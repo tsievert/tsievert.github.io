@@ -20,6 +20,25 @@
 		<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
     <script src="./assets/js/script.js"></script>
 	</head>
+	<body>
+
+	<script type="text/javascript">
+		const documentBody = document.querySelector("body");
+
+function getDarkmodeStatus () {
+	
+	let darkmodeStatus = Cookies.get('darkmode')
+	if(darkmodeStatus == "off") {
+		documentBody.classList.remove('darkmode')
+	}else{
+		documentBody.classList.add('darkmode')
+	}
+	}
+	
+	getDarkmodeStatus();
+</script>
+
+
 	<header>
 		<ul class="mainnav">
 			<li class="close_hamburger"></li>
@@ -47,7 +66,8 @@
 		></aside>
 	</header>
 
-	<body>
+
+
 		<div class="contentarea">
 			<h2 class="title">Teaching</h2>
 

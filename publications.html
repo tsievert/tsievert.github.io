@@ -20,36 +20,56 @@
 		<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
     <script src="./assets/js/script.js"></script>
 	</head>
-	<header>
-		<ul class="mainnav">
-			<li class="close_hamburger"></li>
-			<li><a href="/">Education</a></li>
-			<li><a href="./publications.html">Publications</a></li>
-			<li>
-				<a href="./talks-and-posters.html">Talks & Posters</a>
-			</li>
-			<li><a href="./teaching.html">Teaching</a></li>
-			<li><a href="#contact">Contact</a></li>
-			<label
-				class="switch"
-				name="darkmode switch"
-				><input
-					type="checkbox"
-					name="darkmode switch"
-					id="darkmodeSwitch" /><span class="slider round"></span
-			></label>
-		</ul>
-		<div
-			id="hamburger"
-			class="hamburger"
-		></div>
-		<aside
-			id="sidenav"
-			class="hidden"
-		></aside>
-	</header>
 
 	<body>
+
+		<script type="text/javascript">
+			const documentBody = document.querySelector("body");
+	
+	function getDarkmodeStatus () {
+		
+		let darkmodeStatus = Cookies.get('darkmode')
+		if(darkmodeStatus == "off") {
+			documentBody.classList.remove('darkmode')
+		}else{
+			documentBody.classList.add('darkmode')
+		}
+		}
+		
+		getDarkmodeStatus();
+	</script>
+
+
+
+<header>
+	<ul class="mainnav">
+		<li class="close_hamburger"></li>
+		<li><a href="/">Education</a></li>
+		<li><a href="./publications.html">Publications</a></li>
+		<li>
+			<a href="./talks-and-posters.html">Talks & Posters</a>
+		</li>
+		<li><a href="./teaching.html">Teaching</a></li>
+		<li><a href="#contact">Contact</a></li>
+		<label
+			class="switch"
+			name="darkmode switch"
+			><input
+				type="checkbox"
+				name="darkmode switch"
+				id="darkmodeSwitch" /><span class="slider round"></span
+		></label>
+	</ul>
+	<div
+		id="hamburger"
+		class="hamburger"
+	></div>
+	<aside
+		id="sidenav"
+		class="hidden"
+	></aside>
+</header>
+
 		<div class="contentarea">
 			<section class="publications">
 				<h2 class="title">Publications</h2>
