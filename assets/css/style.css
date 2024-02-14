@@ -293,7 +293,8 @@ Main Page
 .left {
 	flex-grow: 1;
 	flex-shrink: 0;
-	width: var(--width-left);
+	width:100%;
+	max-width: var(--width-left);
 }
 
 .profile .image-container {
