@@ -22,21 +22,21 @@
 	</head>
 	<body>
 
-	<script type="text/javascript">
-		const documentBody = document.querySelector("body");
-
-function getDarkmodeStatus () {
+		<script type="text/javascript">
+			const documentBody = document.querySelector("body");
 	
-	let darkmodeStatus = Cookies.get('darkmode')
-	if(darkmodeStatus == "off") {
-		documentBody.classList.remove('darkmode')
-	}else{
-		documentBody.classList.add('darkmode')
-	}
-	}
-	
-	getDarkmodeStatus();
-</script>
+	function getDarkmodeStatus () {
+		
+		let darkmodeStatus = Cookies.get('darkmode')
+		if(darkmodeStatus == "on") {
+			documentBody.classList.add('darkmode')
+		}else{
+			documentBody.classList.remove('darkmode')
+		}
+		}
+		
+		getDarkmodeStatus();
+	</script>
 
 
 	<header>

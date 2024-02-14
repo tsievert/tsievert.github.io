@@ -29,10 +29,10 @@
 	function getDarkmodeStatus () {
 		
 		let darkmodeStatus = Cookies.get('darkmode')
-		if(darkmodeStatus == "off") {
-			documentBody.classList.remove('darkmode')
-		}else{
+		if(darkmodeStatus == "on") {
 			documentBody.classList.add('darkmode')
+		}else{
+			documentBody.classList.remove('darkmode')
 		}
 		}
 		
