@@ -1,8 +1,3 @@
-
-
-
-
-
 window.addEventListener("DOMContentLoaded", (event) => {
 
 const darkmodeSwitch = document.getElementById("darkmodeSwitch");
