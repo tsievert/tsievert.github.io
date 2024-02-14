@@ -882,6 +882,28 @@ aside {
 		margin-bottom: 20px;
 	}
 
+	.bibbase_group_whole {
+		flex-direction: column;
+
+	}
+
+	section.publications .bibbase_paper:before, section.datasets .bibbase_paper:before {
+		left:-40px;
+	}
+
+	.bibbase_group_body {
+		padding-left:40px;
+		margin-left:0;
+	}
+
+	.bibbase_group_whole {
+		margin-bottom:2em;
+	}
+
+	.bibbase_group {
+		margin-bottom:20px;
+	}
+
 }
 
 @media (max-width: 440px) {
