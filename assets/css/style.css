@@ -555,8 +555,8 @@ Talks & Posters
 \*****************/
 
 .listed_items.poster_items .single_item::before {
-	-webkit-mask-image: url(".../icons/icon-billboard.svg");
-	mask-image: url(".../icons/icon-billboard.svg");
+	-webkit-mask-image: url("../icons/icon-billboard.svg");
+	mask-image: url("../icons/icon-billboard.svg");
 }
 
 /*****************\
@@ -564,8 +564,8 @@ Teaching
 \*****************/
 
 .listed_items.teaching_items .single_item::before {
-	-webkit-mask-image: url(".../icons/icon-graduate.svg");
-	mask-image: url(".../icons/icon-graduate.svg");
+	-webkit-mask-image: url("../icons/icon-graduate.svg");
+	mask-image: url("../icons/icon-graduate.svg");
 }
 
 /*****************\
@@ -644,13 +644,13 @@ section.datasets .bibbase_paper:before {
 }
 
 .publications .bibbase_paper:before {
-	-webkit-mask-image: url(".../icons/icon-book.svg");
-	mask-image: url(".../icons/icon-book.svg");
+	-webkit-mask-image: url("../icons/icon-book.svg");
+	mask-image: url("../icons/icon-book.svg");
 }
 
 .datasets .bibbase_paper:before {
-	-webkit-mask-image: url(".../icons/icon-folder.svg");
-	mask-image: url(".../icons/icon-folder.svg");
+	-webkit-mask-image: url("../icons/icon-folder.svg");
+	mask-image: url("../icons/icon-folder.svg");
 }
 
 .bibbase_group_body {
