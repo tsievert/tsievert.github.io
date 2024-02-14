@@ -47,6 +47,8 @@ function smoothScroll() {
 
 smoothScroll();
 
+
+
 function toggleSideNav() {
 	const hamburger = document.getElementById("hamburger");
 	const sideNav = document.querySelector("ul.mainnav");
@@ -62,6 +64,8 @@ function toggleSideNav() {
 		document.querySelector('ul.mainnav').classList.remove('active') 
 	 });
 }
+
+toggleSideNav();
 
 
 });
