@@ -10,7 +10,7 @@
     <loc>https://tsievert.com/sitemap/</loc>
     <lastmod>2024-03-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tsievert.com/publications/</loc>
@@ -28,7 +28,7 @@
     <loc>https://tsievert.com/privacy-policy/</loc>
     <lastmod>2024-03-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://tsievert.com/talks-and-posters.html/</loc>
@@ -40,6 +40,6 @@
     <loc>https://tsievert.com/assets/pdf/cv.pdf</loc>
     <lastmod>2024-03-08</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
 </urlset>
